@@ -12,4 +12,11 @@ angular.module('didsBeerFestV2App')
       $('#lnkAbout').removeClass('active');
       $('#lnkContact').removeClass('active');
       $('#lnkHome').addClass('active');
+
+      //example for js unit tests:
+      this.awesomeThings = [ 
+      'HTML5 Boilerplate',
+      'AngularJS',
+      'Karma'
+    ];
   });
