@@ -14,6 +14,11 @@ body {
   padding: 0;
 }
 
+.container{
+  padding:0;
+}
+
+
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
@@ -25,7 +30,6 @@ body {
 /* Custom page header */
 .header {
   border-bottom: 1px solid #e5e5e5;
-  margin-bottom: 10px;
   background-color: #0096c9;
 
   /* Make the masthead heading the same height as the navigation */
@@ -39,15 +43,21 @@ body {
 
   .navbar, .navbar-default{
     border-color: #0096c9;
-    background-color: #0096c9;
+    background-color: inherit;
     border-radius: 0;
     margin-bottom: 0;
     border: 0;
   }
 
-  .navbar-brand, .navbar-header{
-    height: 180px; 
-    width:100%;
+  .navbar-brand, .navbar-header {
+    height: 240px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+  .container > .navbar-header{
+    margin-left: 0;
   }
 
   .navbar-toggle{
@@ -62,9 +72,15 @@ body {
     height:100%;
   }
 
+  .footerimage{
+    width:auto;
+    margin: auto;
+    height:40px;
+  }
+
   .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color: #131F46;
-    background-color: #FFFFFF;
+    background-color:rgba(19, 31, 70, 0.22);
 }
 
   .navbar-default .navbar-nav > li > a {
@@ -81,7 +97,7 @@ body {
 
 /* Custom page footer */
 .footer {
-  padding-top: 19px;
+  padding-top: 12px;
   color: #777;
   border-top: 1px solid #e5e5e5;
 }
@@ -103,7 +119,7 @@ body {
 
 /* Supporting marketing content */
 .marketing {
-  margin: 40px 0;
+  margin: 10px 0;
 
   p + h4 {
     margin-top: 28px;

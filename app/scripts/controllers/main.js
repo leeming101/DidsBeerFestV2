@@ -8,10 +8,8 @@
  * Controller of the didsBeerFestV2App
  */
 angular.module('didsBeerFestV2App')
-  .controller('MainCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('MainCtrl', function () {   
+      $('#lnkAbout').removeClass('active');
+      $('#lnkContact').removeClass('active');
+      $('#lnkHome').addClass('active');
   });

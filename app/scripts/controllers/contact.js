@@ -2,15 +2,15 @@
 
 /**
  * @ngdoc function
- * @name didsBeerFestV2App.controller:AboutCtrl
+ * @name didsBeerFestV2App.controller:ContactCtrl
  * @description
- * # AboutCtrl
+ * # ContactCtrl
  * Controller of the didsBeerFestV2App
  */
 angular.module('didsBeerFestV2App')
-  .controller('AboutCtrl', function () {
-      $('#lnkAbout').addClass('active');
-      $('#lnkContact').removeClass('active');
+  .controller('ContactCtrl', function () {   
+      $('#lnkAbout').removeClass('active');
+      $('#lnkContact').addClass('active');
       $('#lnkHome').removeClass('active');
 
       //example for js unit tests:
