@@ -34,6 +34,9 @@ angular
         controller: 'ContactCtrl',
         controllerAs: 'contact'
       })
+      .when('/lastyear', {
+        redirectTo: '/lastyear'
+      })
       .otherwise({
         redirectTo: '/'
       });
