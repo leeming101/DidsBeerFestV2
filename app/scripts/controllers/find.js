@@ -2,19 +2,19 @@
 
 /**
  * @ngdoc function
- * @name didsBeerFestV2App.controller:MainCtrl
+ * @name didsBeerFestV2App.controller:FindCtrl
  * @description
- * # MainCtrl
+ * # FindCtrl
  * Controller of the didsBeerFestV2App
  */
 angular.module('didsBeerFestV2App')
-  .controller('MainCtrl', function () {   
+  .controller('FindCtrl', function () {
       $('#lnkAbout').removeClass('active');
       $('#lnkContact').removeClass('active');
-      $('#lnkHome').addClass('active');
-      $('#lnkFind').removeClass('active');
+      $('#lnkHome').removeClass('active');
+      $('#lnkFind').addClass('active');
 
-      $('.mainContainer').removeClass('fullBg');
+      $('.mainContainer').addClass('fullBg');
 
       //example for js unit tests:
       this.awesomeThings = [ 
