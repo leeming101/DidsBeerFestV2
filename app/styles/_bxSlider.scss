@@ -1,0 +1,29 @@
+/* 
+	jQuery Logo Slider Ticker 
+	by http://webdesignandsuch.com
+	build with code from http://bxslider.com
+*/
+
+
+#slider {
+	list-style:none;
+	padding:0px
+}
+
+.slider-container { 
+	overflow: hidden;
+}
+
+#slider img { 
+	width:200px;
+	margin:auto;
+	display:inline-block  
+}
+
+#slider li {
+	width:250px
+}
+
+
+
+
