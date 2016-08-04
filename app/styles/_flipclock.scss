@@ -46,7 +46,7 @@
 .flip-clock-wrapper {
   text-align: center;
   position: relative;
-  width: 108%;
+  width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -427,3 +427,29 @@
   100% {
     opacity: 0; } }
 
+@media screen and (max-width: 375px) and (max-height: 667px) {
+  .rowCountdown{
+    padding-left:10px !important;
+    padding-right:10px !important;
+  }
+}
+
+@media screen and (max-width: 360px) and (max-height: 640px) {
+  .clock{
+    width:108% !important;
+  }
+
+  .header{
+    width: 108% !important;
+  }
+}
+
+@media screen and (max-width: 320px) and (max-height: 570px) {
+  .clock{
+    width:122% !important;
+  }
+
+  .header{
+    width: 118% !important;
+  }
+}
