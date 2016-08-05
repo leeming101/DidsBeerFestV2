@@ -40,6 +40,11 @@ angular
         controller: 'ContactCtrl',
         controllerAs: 'contact'
       })
+      .when('/volunteer', {
+        templateUrl: 'views/volunteer.html',
+        controller: 'VolunteerCtrl',
+        controllerAs: 'volunteer'
+      })
       .when('/lastyear', {
         redirectTo: '/lastyear'
       })

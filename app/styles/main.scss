@@ -50,6 +50,23 @@ body {
   }
 }
 
+.main-nav-scrolled {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left:0;
+  background-color: #0096c9;
+  z-index: 10000;
+  transition: all 0.3s ease-in-out;
+}
+
+#navLogo{
+    height: 50px;
+    float: left;
+    padding-right: 50px;
+    padding-left: 20px;
+}
+
   .navbar, .navbar-default{
     border-color: #0096c9;
     background-color: inherit;
@@ -174,4 +191,8 @@ body {
     width: 100%;
     max-width: 100%;
     background-color: #0096c9;
+}
+
+p{
+  font-size: 16px;
 }

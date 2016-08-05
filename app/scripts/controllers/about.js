@@ -13,6 +13,7 @@ angular.module('didsBeerFestV2App')
       $('#lnkContact').removeClass('active');
       $('#lnkHome').removeClass('active');
       $('#lnkFind').removeClass('active');
+      $('#lnkVolunteer').removeClass('active');
 
       $('.mainContainer').removeClass('fullBg');
 

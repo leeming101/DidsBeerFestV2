@@ -8,12 +8,12 @@
  * Controller of the didsBeerFestV2App
  */
 angular.module('didsBeerFestV2App')
-  .controller('ContactCtrl', function () {   
+  .controller('VolunteerCtrl', function () {   
       $('#lnkAbout').removeClass('active');
-      $('#lnkContact').addClass('active');
+      $('#lnkContact').removeClass('active');
       $('#lnkHome').removeClass('active');
       $('#lnkFind').removeClass('active');
-      $('#lnkVolunteer').removeClass('active');
+      $('#lnkVolunteer').addClass('active');
 
       $('.mainContainer').removeClass('fullBg');
 
