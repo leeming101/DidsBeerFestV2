@@ -12,7 +12,7 @@ $(document).ready(function () {
     var hdr = $('.header').height();
 
     $(window).scroll(function() {
-    if( $(this).scrollTop() > hdr ) {
+    if( $(this).scrollTop() > hdr && $('.navbar-toggle').is(':hidden')) {
         mn.addClass('main-nav-scrolled');
         logo.show();
     } else {
