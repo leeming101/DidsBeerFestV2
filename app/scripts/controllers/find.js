@@ -8,7 +8,7 @@
  * Controller of the didsBeerFestV2App
  */
 angular.module('didsBeerFestV2App')
-  .controller('FindCtrl', function ($scope, uiGmapGoogleMapApi) {
+  .controller('FindCtrl', function ($scope, $window, uiGmapGoogleMapApi) {
     $('#lnkAbout').removeClass('active');
     $('#lnkContact').removeClass('active');
     $('#lnkHome').removeClass('active');
@@ -24,6 +24,8 @@ angular.module('didsBeerFestV2App')
       'Karma'
     ];
 
+    
+
     $scope.map = { center: { latitude: 53.416528, longitude: -2.222119 }, zoom: 16 };
 
       $scope.marker = {
@@ -34,7 +36,7 @@ angular.module('didsBeerFestV2App')
         },
         options: {
           draggable: false,
-          clickable: false,
+          clickable: true,
           icon: 'images/mapmarker.png'
         }
       };
@@ -44,4 +46,10 @@ angular.module('didsBeerFestV2App')
     uiGmapGoogleMapApi.then(function (maps) {
       
     });
+
+    $scope.openMap = function() {
+      if($window.confirm('Open in Google Maps?')){
+        $window.location.href = 'http://maps.google.com/maps?z=15&q=53.416528,-2.222119';
+      }
+    };
   });
