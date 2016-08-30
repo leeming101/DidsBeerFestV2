@@ -77,10 +77,17 @@ body {
   }
 
   .navbar-brand, .navbar-header {
-    height: 240px;
     width: 100%;
-    margin-top: 5px;
     margin-bottom: 10px;
+}
+
+.navbar-brand {
+    height: 180px;
+}
+
+.navbar-header {
+    height: 150px;
+    margin-top: 5px;
 }
 
   .container > .navbar-header{
