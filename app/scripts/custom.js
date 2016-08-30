@@ -20,4 +20,6 @@ $(document).ready(function () {
         logo.hide();
     }
     });
+
+    $('.youtubePopup').magnificPopup({type:'iframe'});
 });

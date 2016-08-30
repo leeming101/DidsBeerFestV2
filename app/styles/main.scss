@@ -114,6 +114,10 @@ body {
     color: #131F46;
   }
 
+   .navbar-default .navbar-nav > li > a > span {
+    color: #131F46;
+  }
+
   .navbar-default .navbar-toggle {
     border-color: #131F46;
   }
@@ -197,4 +201,8 @@ p{
 .angular-google-map-container { 
   height: 400px;
   width:100%; 
+  }
+
+  .youtubePopup:focus{
+    outline: 0;
   }
