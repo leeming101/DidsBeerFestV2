@@ -5,7 +5,8 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 
 @import "_fontface.scss";
 @import "_bxSlider.scss";
-@import "flipclock.scss";
+@import "_flipclock.scss";
+@import "_JustVector.scss";
 
 #lnkAbout, #lnkContact{
   display:none;
