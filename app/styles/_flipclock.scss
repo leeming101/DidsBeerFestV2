@@ -433,23 +433,3 @@
     padding-right:10px !important;
   }
 }
-
-@media screen and (max-width: 360px) and (max-height: 640px) {
-  .clock{
-    width:108% !important;
-  }
-
-  .header{
-    width: 108% !important;
-  }
-}
-
-@media screen and (max-width: 320px) and (max-height: 570px) {
-  .clock{
-    width:122% !important;
-  }
-
-  .header{
-    width: 118% !important;
-  }
-}
