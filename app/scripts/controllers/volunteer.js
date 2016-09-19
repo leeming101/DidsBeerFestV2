@@ -14,8 +14,7 @@ angular.module('didsBeerFestV2App')
       $('#lnkHome').removeClass('active');
       $('#lnkFind').removeClass('active');
       $('#lnkVolunteer').addClass('active');
-
-      $('.mainContainer').removeClass('fullBg');
+      $('#lnkTickets').removeClass('active');
 
       //example for js unit tests:
       this.awesomeThings = [ 

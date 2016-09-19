@@ -46,6 +46,11 @@ angular
         controller: 'VolunteerCtrl',
         controllerAs: 'volunteer'
       })
+      .when('/tickets', {
+        templateUrl: 'views/tickets.html',
+        controller: 'TicketsCtrl',
+        controllerAs: 'tickets'
+      })
       .when('/lastyear', {
         redirectTo: '/lastyear'
       })

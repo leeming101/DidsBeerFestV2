@@ -38,6 +38,15 @@ body {
   padding-right: 15px;
 }
 
+.rowPadding{
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 /* Custom page header */
 .header {
   border-bottom: 1px solid #e5e5e5;
@@ -224,4 +233,16 @@ p{
     margin-right: auto;
     width: 355px;
     zoom:78%;
+  }
+
+
+
+  #ticketImg{
+    width: 50%;
+    margin: auto;
+  }
+
+  #beerImg{
+    width: 25%;
+    margin:auto;
   }
