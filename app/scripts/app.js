@@ -51,6 +51,11 @@ angular
         controller: 'TicketsCtrl',
         controllerAs: 'tickets'
       })
+      .when('/goodcauses', {
+        templateUrl: 'views/goodcauses.html',
+        controller: 'GoodCausesCtrl',
+        controllerAs: 'goodcauses'
+      })
       .when('/lastyear', {
         redirectTo: '/lastyear'
       })

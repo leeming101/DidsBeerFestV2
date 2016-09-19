@@ -2,20 +2,20 @@
 
 /**
  * @ngdoc function
- * @name didsBeerFestV2App.controller:ContactCtrl
+ * @name didsBeerFestV2App.controller:GoodCausesCtrl
  * @description
- * # ContactCtrl
+ * # GoodCausesCtrl
  * Controller of the didsBeerFestV2App
  */
 angular.module('didsBeerFestV2App')
-  .controller('ContactCtrl', function () {   
+  .controller('GoodCausesCtrl', function () {   
       $('#lnkAbout').removeClass('active');
-      $('#lnkContact').addClass('active');
+      $('#lnkContact').removeClass('active');
       $('#lnkHome').removeClass('active');
       $('#lnkFind').removeClass('active');
       $('#lnkVolunteer').removeClass('active');
       $('#lnkTickets').removeClass('active');
-      $('#lnkGoodCauses').removeClass('active');
+      $('#lnkGoodCauses').addClass('active');
 
       //example for js unit tests:
       this.awesomeThings = [ 
