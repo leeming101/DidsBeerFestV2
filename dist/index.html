@@ -1,9 +1,147 @@
-<!doctype html> <html> <head> <meta charset="utf-8"> <meta name="theme-color" content="#0096c9"> <title>Didsbury Beer Festival 2016</title> <meta name="description" content=""> <meta name="viewport" content="width=device-width"> <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> <link rel="stylesheet" href="styles/vendor.fa10e481.css"> <link rel="stylesheet" href="styles/main.e5b086bf.css"> <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet"> </head> <body ng-app="didsBeerFestV2App"> <!--[if lte IE 8]>
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="theme-color" content="#0096c9">
+    <title>Didsbury Beer Festival 2016</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/magnific-popup/dist/magnific-popup.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+  </head>
+  <body ng-app="didsBeerFestV2App">
+    <!--[if lte IE 8]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]--> <!-- Add your site or application content here --> <div class="header"> <div class="navbar navbar-default" role="navigation"> <div class="container"> <div class="navbar-header"> <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand" href="#/"> <img class="image" src="images/dbfheader.55c56e59.svg" alt="Didsbury Beer Festival 2016"><br> </a> </div> <div class="collapse navbar-collapse" id="js-navbar-collapse"> <ul class="nav navbar-nav main-nav"> <img id="navLogo" ng-hide style="display:none" src="images/dbfheadersmall.20aa7c09.svg"> <li id="lnkHome" class="active"><a href="#/">Home</a></li> <li id="lnkFind"><a ng-href="#/find">Find Us</a></li> <li id="lnkTickets"><a ng-href="#/tickets">Tickets</a></li> <li id="lnkGoodCauses"><a ng-href="#/goodcauses">Good Causes</a></li> <li id="lnkAbout"><a ng-href="#/about">About</a></li> <li id="lnkContact"><a ng-href="#/contact">Contact</a></li> <li id="lnkVolunteer"><a ng-href="#/volunteer">Volunteer</a></li> <li id="lnkLastYear"><a ng-href="/lastyear">Last Year</a></li> <li> <a href="https://www.youtube.com/watch?v=BdoGr0ocBT4" class="youtubePopup"> <span> Video</span> </a> </li> </ul> </div> </div> </div> </div> <div class="container mainContainer"> <div ng-view=""></div> </div> <div class="footer"> <div class="container"> <!-- slider --> <div class="slider-container"> <p>Many thanks to our sponsors:</p> <ul id="slider"> <li><a href="http://smcreditunion.co.uk/"><img src="images/sponsors/1.56196344.png"></a></li> <li><a href="http://www.bottonline.co.uk/"><img src="images/sponsors/2.76010e09.png"></a></li> <li><a href="http://www.wearecreation.co.uk/"><img src="images/sponsors/3.558099ff.png"></a></li> <li><a href="http://www.claytonhulme.co.uk/"><img src="images/sponsors/4.5b16eb96.png"></a></li> <li><a href="https://twitter.com/Wheildons/"><img src="images/sponsors/5.b92dd46f.png"></a></li> <li><img src="images/sponsors/6.62ddd9fd.png"></li> <li><a href="http://www.barneswalker.co.uk"><img src="images/sponsors/7.cc3f9ea5.png"></a></li> <li><a href="http://www.aqua-check.co.uk/"><img src="images/sponsors/8.67f98828.jpg"></a></li> <li><a href="http://www.manchestereveningnews.co.uk/"><img src="images/sponsors/9.60c30386.png"></a></li> <li><a href="http://www.thebarbershopdidsbury.co.uk/"><img src="images/sponsors/10.c554ef5c.png"></a></li> </ul> </div><!-- /slider --> <p><img class="footerimage" src="images/2016logosmall.6f7b0894.png" alt="Didsbury Beer Festival 2016"> Didsbury Beer Festival 2016</p> </div> </div> <!-- Google Analytics: change UA-XXXXX-X to be your site's ID --> <script> !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+    <div class="header">
+      <div class="navbar navbar-default" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand" href="#/">
+               <img class="image" src="images/dbfheader.svg" alt="Didsbury Beer Festival 2016"><br>
+            </a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="js-navbar-collapse">
+
+            <ul class="nav navbar-nav main-nav">
+              <img id="navLogo" ng-hide style="display:none;" src="images/dbfheadersmall.svg" />
+              <li id="lnkHome" class="active"><a href="#/">Home</a></li>
+              <li id="lnkFind"><a ng-href="#/find">Find Us</a></li>
+              <li id="lnkTickets"><a ng-href="#/tickets">Tickets</a></li>
+              <li id="lnkGoodCauses"><a ng-href="#/goodcauses">Good Causes</a></li>
+              <li id="lnkAbout"><a ng-href="#/about">About</a></li>
+              <li id="lnkContact"><a ng-href="#/contact">Contact</a></li>
+              <li id="lnkVolunteer"><a ng-href="#/volunteer">Volunteer</a></li>
+              <li id="lnkLastYear"><a ng-href="/lastyear">Last Year</a></li>
+              <li>
+                <a href="https://www.youtube.com/watch?v=BdoGr0ocBT4" class="youtubePopup">
+                  <span> Video</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mainContainer">
+    <div ng-view=""></div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <!-- slider -->
+<div class="slider-container">
+  <p>Many thanks to our sponsors:</p>
+	<ul id="slider">
+      <li><a href="http://smcreditunion.co.uk/"><img src="images/sponsors/1.png"></a></li>
+      <li><a href="http://www.bottonline.co.uk/"><img src="images/sponsors/2.png"></a></li>
+      <li><a href="http://www.wearecreation.co.uk/"><img src="images/sponsors/3.png"></a></li>
+      <li><a href="http://www.claytonhulme.co.uk/"><img src="images/sponsors/4.png"></a></li>
+      <li><a href="https://twitter.com/Wheildons/"><img src="images/sponsors/5.png"></a></li>
+      <li><img src="images/sponsors/6.png"></li>
+      <li><a href="http://www.barneswalker.co.uk"><img src="images/sponsors/7.png"></a></li>
+      <li><a href="http://www.aqua-check.co.uk/"><img src="images/sponsors/8.jpg"></a></li>
+      <li><a href="http://www.manchestereveningnews.co.uk/"><img src="images/sponsors/9.png"></a></li>
+      <li><a href="http://www.thebarbershopdidsbury.co.uk/"><img src="images/sponsors/10.png"></a></li>
+	</ul>
+
+</div><!-- /slider -->
+        <p><img class="footerimage" src="images/2016logosmall.png" alt="Didsbury Beer Festival 2016"> Didsbury Beer Festival 2016</p>
+      </div>
+    </div>
+
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+     <script>
+       !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
        (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
        r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
        }(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
        ga('create', 'UA-35875054-1');
-       ga('send', 'pageview'); </script> <script src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyDUIkZxzGxRGNEgCWdjOylusJhFetr6qv4"></script> <script src="scripts/vendor.22383ba2.js"></script> <script src="scripts/scripts.2ff76980.js"></script> </body> </html> 
+       ga('send', 'pageview');
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyDUIkZxzGxRGNEgCWdjOylusJhFetr6qv4"></script>
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <script src="bower_components/jquery-ui/jquery-ui.js"></script>
+    <script src="bower_components/ngtweet/dist/ngtweet.js"></script>
+    <script src="bower_components/angular-simple-logger/dist/angular-simple-logger.js"></script>
+    <script src="bower_components/lodash/lodash.js"></script>
+    <script src="bower_components/markerclustererplus/src/markerclusterer.js"></script>
+    <script src="bower_components/google-maps-utility-library-v3-markerwithlabel/dist/markerwithlabel.js"></script>
+    <script src="bower_components/google-maps-utility-library-v3-infobox/dist/infobox.js"></script>
+    <script src="bower_components/google-maps-utility-library-v3-keydragzoom/dist/keydragzoom.js"></script>
+    <script src="bower_components/js-rich-marker/src/richmarker.js"></script>
+    <script src="bower_components/angular-google-maps/dist/angular-google-maps.js"></script>
+    <script src="bower_components/magnific-popup/dist/jquery.magnific-popup.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+        <!-- build:js({.tmp,app}) scripts/scripts.js -->
+        <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/main.js"></script>
+        <script src="scripts/controllers/about.js"></script>
+        <script src="scripts/controllers/contact.js"></script>
+        <script src="scripts/controllers/find.js"></script>
+        <script src="scripts/controllers/volunteer.js"></script>
+        <script src="scripts/controllers/tickets.js"></script>
+        <script src="scripts/controllers/goodcauses.js"></script>
+        <!-- bxSlider Javascript file -->
+        <script src="scripts/jquery.bxSlider.js"></script>
+        <script src="scripts/flipclock.min.js"></script>
+        <script src="scripts/custom.js"></script>
+        <!-- endbuild -->
+</body>
+</html>
