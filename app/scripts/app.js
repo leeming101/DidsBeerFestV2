@@ -56,6 +56,11 @@ angular
         controller: 'GoodCausesCtrl',
         controllerAs: 'goodcauses'
       })
+      .when('/music', {
+        templateUrl: 'views/music.html',
+        controller: 'MusicCtrl',
+        controllerAs: 'music'
+      })
       .when('/lastyear', {
         redirectTo: '/lastyear'
       })
