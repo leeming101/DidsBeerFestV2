@@ -75,7 +75,7 @@
   <p>Many thanks to our sponsors:</p>
 	<ul id="slider">
       <li ng-repeat="sponsor in sponsorList|orderBy:'rank'">
-        <a href="{{sponsor.link}}"><img ng-src="images/sponsors/{{sponsor.img}}"/></a>
+        <a href="{{sponsor.link}}"><img ng-src="{{sponsor.img}}"/></a>
       </li>
 	</ul>
 
