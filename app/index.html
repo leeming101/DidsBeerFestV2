@@ -74,7 +74,9 @@
 <div ng-controller="SponsorsCtrl" class="slider-container">
   <p>Many thanks to our sponsors:</p>
 	<ul id="slider">
-      <li ng-repeat="sponsor in sponsorList|orderBy:random" ng-bind-html="sponsor">{{sponsor}}</li>
+      <li ng-repeat="sponsor in sponsorList|orderBy:'rank'">
+        <a href="{{sponsor.link}}"><img ng-src="images/sponsors/{{sponsor.img}}"/></a>
+      </li>
 	</ul>
 
 </div><!-- /slider -->
@@ -123,6 +125,7 @@
 
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/sponsors.js"></script>
         <script src="scripts/flipclock.min.js"></script>
         <script src="scripts/controllers/main.js"></script>
         <script src="scripts/controllers/about.js"></script>
@@ -131,8 +134,7 @@
         <script src="scripts/controllers/volunteer.js"></script>
         <script src="scripts/controllers/tickets.js"></script>
         <script src="scripts/controllers/goodcauses.js"></script>
-        <script src="scripts/controllers/music.js"></script>
-        <script src="scripts/controllers/sponsors.js"></script>
+        <script src="scripts/controllers/music.js"></script>        
         <!-- bxSlider Javascript file -->
         <script src="scripts/jquery.bxSlider.js"></script>
         <script src="scripts/custom.js"></script>
