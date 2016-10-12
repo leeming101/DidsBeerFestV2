@@ -1,9 +1,11 @@
-<h2>Cider List</h2>
-<form class="form-inline">
-  <input ng-model="query" type="text"
-    placeholder="Filter by" autofocus>
-</form>
-<br>
-<div ng-repeat="cider in ciderList | filter:query | orderBy: 'name' ">
-  <p>{{cider.name}}<br>{{cider.abv}}</p>
+<div class="row marketing col-md-12">
+  <h2>Cider List</h2>
+  <form class="form-inline">
+    <input ng-model="query" type="text"
+      placeholder="Filter by">
+  </form>
+  <br>
+  <div ng-repeat="cider in ciderList | filter:query | orderBy: 'name' ">
+    <p>{{cider.name}}<br>{{cider.abv}}</p>
+  </div>
 </div>
