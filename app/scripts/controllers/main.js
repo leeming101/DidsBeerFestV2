@@ -17,6 +17,8 @@ angular.module('didsBeerFestV2App')
       $('#lnkTickets').removeClass('active');
       $('#lnkGoodCauses').removeClass('active');
       $('#lnkMusic').removeClass('active');
+      $('#lnkCider').removeClass('active');
+      $('#lnkBeer').removeClass('active');
 
       //example for js unit tests:
       this.awesomeThings = [ 
@@ -28,4 +30,5 @@ angular.module('didsBeerFestV2App')
      var dateNow = new Date(2016, 9, 27, 19, 0, 0, 0);
      
     initializeClock('clockdiv', dateNow);
+
   });
