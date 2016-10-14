@@ -1,0 +1,11 @@
+<div class="row marketing col-md-12">
+  <h2>Beer List</h2>
+  <form class="form-inline">
+    <input ng-model="query" type="text"
+      placeholder="Filter by">
+  </form>
+  <br>
+  <div ng-repeat="beer in beerList | filter:query | orderBy: 'name' ">
+    <p><span style="font-weight:bold">{{beer.Name}}</span> ({{beer.Brewer}}) <span style="font-style:italic;" ng-if="beer.ABV != null">{{beer.ABV}}%</span><br>{{beer.Description}}</p><br>
+  </div>
+</div>

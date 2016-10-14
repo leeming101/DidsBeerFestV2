@@ -61,11 +61,11 @@ angular
         controller: 'MusicCtrl',
         controllerAs: 'music'
       })
-      // .when('/beer', {
-      //   templateUrl: 'views/beer.html',
-      //   controller: 'BeerCtrl',
-      //   controllerAs: 'beer'
-      // })
+       .when('/beer', {
+         templateUrl: 'views/beer.html',
+         controller: 'BeerCtrl',
+         controllerAs: 'beer'
+       })
        .when('/cider', {
          templateUrl: 'views/cider.html',
          controller: 'CiderCtrl',

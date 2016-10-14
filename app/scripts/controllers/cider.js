@@ -26,6 +26,10 @@ angular.module('didsBeerFestV2App')
       'Karma'
       ];
 
+      $scope.filterFunction = function(element) {
+        return element.name.match(/^Ma/) ? true : false;
+      };
+
       $scope.ciderList = [
         { name: 'Gwynt y Draig 2 Trees perry', abv: '' },
         { name: 'Winkleigh sams Autumn Scrumpy m/sw', abv: '' },
@@ -82,8 +86,4 @@ angular.module('didsBeerFestV2App')
         { name: 'Winkleigh Sams blackcurrant', abv: '' },
         { name: 'Winkleigh Sams sweet', abv: '' }
     ];
-
-    $scope.filterFunction = function(element) {
-    return element.name.match(/^Ma/) ? true : false;
-  };
   });
