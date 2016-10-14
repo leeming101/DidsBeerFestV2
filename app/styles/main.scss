@@ -74,8 +74,8 @@ body {
 #navLogo{
     height: 50px;
     float: left;
-    padding-right: 50px;
-    padding-left: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
   .navbar, .navbar-default{
@@ -182,7 +182,7 @@ body {
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 730px;
+    max-width: 760px;
   }
 
   /* Remove the padding we set earlier */
@@ -254,3 +254,52 @@ p{
   .lnkGoodCause, .lnkGoodCause :hover, .lnkGoodCause :focus{
     color: #333333;
   }
+
+  .listName{
+    font-weight: bold;
+  }
+
+  .listAbv{
+    font-style:italic;
+  }
+
+@media (min-width: 768px){
+    .navbar .nav,
+  .navbar .nav > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+    *zoom:1; /* hasLayout ie7 trigger */
+    vertical-align: top;
+  }
+
+  .navbar-collapse {
+    text-align:center;
+  }
+
+  .navSocial > p > a{
+  display:none !important;
+}
+}
+
+.navSocial > p > a{
+  color: #131F46 !important;
+  font-size: 26px;
+}
+
+@media (max-width: 768px){
+  .navSocial{
+      display:inline-block;
+      *display:inline;
+      *zoom:1;
+  }
+
+  .nav{
+    font-size: 26px;
+  }
+
+  .navbar-collapse {
+    border:none;
+    box-shadow:none;
+  }
+}

@@ -6,6 +6,10 @@
   </form>
   <br>
   <div ng-repeat="cider in ciderList | filter:query | orderBy: 'name' ">
-    <p>{{cider.name}}<br>{{cider.abv}}</p>
+    <p>
+      <span class="listName">{{cider.Name}}</span> ({{cider.Brewer}}) <span class="listAbv" ng-if="cider.ABV != null">{{cider.ABV}}%</span>
+      <br>{{cider.Description}}
+    </p>
+    <br>
   </div>
 </div>

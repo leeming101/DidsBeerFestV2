@@ -6,6 +6,10 @@
   </form>
   <br>
   <div ng-repeat="beer in beerList | filter:query | orderBy: 'name' ">
-    <p><span style="font-weight:bold">{{beer.Name}}</span> ({{beer.Brewer}}) <span style="font-style:italic;" ng-if="beer.ABV != null">{{beer.ABV}}%</span><br>{{beer.Description}}</p><br>
+    <p>
+      <span class="listName">{{beer.Name}}</span> ({{beer.Brewer}}) <span class="listAbv" ng-if="beer.ABV != null">{{beer.ABV}}%</span>
+      <br>{{beer.Description}}
+    </p>
+    <br>
   </div>
 </div>
