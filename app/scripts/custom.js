@@ -23,8 +23,8 @@ $(document).ready(function () {
 
     $('.youtubePopup').magnificPopup({ type: 'iframe' });
 
-    $(".navbar-brand").click(function () {
-        $(".navbar-collapse.in").collapse('hide');
+    $('.navbar-brand').click(function () {
+        $('.navbar-collapse.in').collapse('hide');
     });
 
     // ADD SLIDEDOWN ANIMATION TO DROPDOWN //
