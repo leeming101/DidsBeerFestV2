@@ -38,7 +38,13 @@ angular.module('didsBeerFestV2App')
         {link:'http://www.dogpartridgepub.co.uk/', img:'images/sponsors/25.png', rank: 0.5 - Math.random()},
         {link:'http://namaste-nepal.co.uk/wordpress/', img:'images/sponsors/26.png', rank: 0.5 - Math.random()},
         {link:'http://www.outstandingbeers.co.uk/', img:'images/sponsors/27.png', rank: 0.5 - Math.random()},
-        {link:'http://www.thealbertclub.co.uk/', img:'images/sponsors/28.jpg', rank: 0.5 - Math.random()}
+        {link:'http://www.thealbertclub.co.uk/', img:'images/sponsors/28.jpg', rank: 0.5 - Math.random()},
+        {link:'http://www.yeoldecock-didsbury.co.uk/', img:'images/sponsors/29.png', rank: 0.5 - Math.random()},
+        {link:'https://twitter.com/bottlestockport', img:'images/sponsors/30.png', rank: 0.5 - Math.random()},
+        {link:'https://www.theepicureanbeers.co.uk/', img:'images/sponsors/31.png', rank: 0.5 - Math.random()},
+        {link:'http://www.greensdidsbury.co.uk/', img:'images/sponsors/32.png', rank: 0.5 - Math.random()},
+        {link:'http://stockportbrewingcompany.com/', img:'images/sponsors/33.png', rank: 0.5 - Math.random()},
+        {link:'https://burtonroadbrewing.co.uk/', img:'images/sponsors/34.png', rank: 0.5 - Math.random()}
       ];
       
       //example for js unit tests:
