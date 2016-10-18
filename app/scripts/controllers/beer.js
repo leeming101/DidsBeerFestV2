@@ -247,7 +247,7 @@ angular.module('didsBeerFestV2App')
         'Brewer': 'Chantry Brewery',
         'Name': 'DBF9',
         'Type': '',
-        'ABV': null,
+        'ABV': 0,
         'Description': 'Brewed specially for our beer festival.  Don\'t go home without trying this one!'
       },
       {
@@ -401,7 +401,7 @@ angular.module('didsBeerFestV2App')
         'Brewer': 'Geeves',
         'Name': '',
         'Type': '',
-        'ABV': null,
+        'ABV': 0,
         'Description': ''
       },
       {
@@ -618,7 +618,7 @@ angular.module('didsBeerFestV2App')
         'Brewer': 'Outstanding',
         'Name': 'Black IPA',
         'Type': 'Amber',
-        'ABV': null,
+        'ABV': 0,
         'Description': 'Awaiting tasting notes from brewer.'
       },
       {
@@ -891,7 +891,7 @@ angular.module('didsBeerFestV2App')
         'Brewer': 'Track',
         'Name': '',
         'Type': '',
-        'ABV': null,
+        'ABV': 0,
         'Description': ''
       },
       {
