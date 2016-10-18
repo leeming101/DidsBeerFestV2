@@ -18,6 +18,7 @@ angular.module('didsBeerFestV2App')
     $('#lnkMusic').removeClass('active');
     $('#lnkCider').addClass('active');
     $('#lnkBeer').removeClass('active');
+    $('#lnkCraft').removeClass('active');
 
     //example for js unit tests:
     this.awesomeThings = [
@@ -69,7 +70,7 @@ angular.module('didsBeerFestV2App')
       {
         'Brewer': 'Westons Cider',
         'Name': 'Country Perry',
-        'Type': 'Cider',
+        'Type': 'Perry',
         'ABV': 4.5,
         'Description': 'English perry made in Herefordshire.  Fermented and fully matured in old oak vats to develop an exquisite delicate light and fruity character.  Softly floral with a clear natural pale straw colour.'
       },

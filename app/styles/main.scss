@@ -326,4 +326,20 @@ p{
     border:none;
     box-shadow:none;
   }
+
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #131F46;
+    text-align: center;
+    font-size: 18px;
+  } 
+
+  .navbar-default .navbar-nav .open .dropdown-toggle{
+    background: none;
+    color: #131F46;
+  }
+
+  .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background: none;
+    color: #131F46;
+  }
 }

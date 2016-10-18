@@ -71,6 +71,11 @@ angular
          controller: 'CiderCtrl',
          controllerAs: 'cider'
        })
+       .when('/craft', {
+         templateUrl: 'views/craft.html',
+         controller: 'CraftCtrl',
+         controllerAs: 'craft'
+       })
       .when('/lastyear', {
         redirectTo: '/lastyear'
       })

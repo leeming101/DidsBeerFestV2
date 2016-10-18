@@ -46,8 +46,15 @@
               <!--<li id="lnkHome" class="active"><a href="#/">Home</a></li>-->
               <li id="lnkFind"><a ng-href="#/find">Find</a></li>
               <li id="lnkTickets"><a ng-href="#/tickets">Tickets</a></li>
-              <li id="lnkBeer"><a ng-href="#/beer">Beer</a></li>
-              <li id="lnkCider"><a ng-href="#/cider">Cider</a></li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Drinks <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li id="lnkBeer"><a ng-href="#/beer">Beer</a></li>
+                  <li id="lnkCider"><a ng-href="#/cider">Cider</a></li>
+                  <li id="lnkCraft"><a ng-href="#/craft">Lager &amp; Craft</a></li>
+                </ul>
+              </li>
+              
               <li id="lnkGoodCauses"><a ng-href="#/goodcauses">Good Causes</a></li>
               <li id="lnkAbout"><a ng-href="#/about">About</a></li>
               <li id="lnkContact"><a ng-href="#/contact">Contact</a></li>
@@ -153,7 +160,8 @@
         <script src="scripts/controllers/goodcauses.js"></script>
         <script src="scripts/controllers/music.js"></script> 
         <script src="scripts/controllers/beer.js"></script> 
-        <script src="scripts/controllers/cider.js"></script>        
+        <script src="scripts/controllers/cider.js"></script>
+        <script src="scripts/controllers/craft.js"></script>         
         <!-- bxSlider Javascript file -->
         <script src="scripts/jquery.bxSlider.js"></script>
         <script src="scripts/custom.js"></script>
