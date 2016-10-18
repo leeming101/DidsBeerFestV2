@@ -287,14 +287,14 @@ angular.module('didsBeerFestV2App')
         'Brewer': 'The Somerset Cider Brandy Company',
         'Name': 'Burrow Hill Dry Cider',
         'Type': 'Cider',
-        'ABV': null,
+        'ABV': 0,
         'Description': ''
       },
       {
         'Brewer': 'Countryman',
         'Name': 'Countryman Dry Cider',
         'Type': 'Cider',
-        'ABV': null,
+        'ABV': 0,
         'Description': ''
       },
       {
@@ -308,7 +308,7 @@ angular.module('didsBeerFestV2App')
         'Brewer': 'Parsons Choice',
         'Name': 'Parsons Choice Sweet Cider',
         'Type': 'Cider',
-        'ABV': null,
+        'ABV': 0,
         'Description': ''
       },
       {
@@ -322,21 +322,21 @@ angular.module('didsBeerFestV2App')
         'Brewer': 'Ross on Wye',
         'Name': 'Ross on Wye Medium Cider',
         'Type': 'Cider',
-        'ABV': null,
+        'ABV': 0,
         'Description': ''
       },
       {
         'Brewer': 'Ross on Wye',
         'Name': 'Ross on Wye Perry',
         'Type': 'Perry',
-        'ABV': null,
+        'ABV': 0,
         'Description': ''
       },
       {
         'Brewer': 'Sheppy\'s',
         'Name': 'Sheppy\'s Sweet Cider',
         'Type': 'Cider',
-        'ABV': null,
+        'ABV': 0,
         'Description': ''
       },
       {
@@ -364,7 +364,7 @@ angular.module('didsBeerFestV2App')
         'Brewer': 'Snails Bank Cider',
         'Name': 'Strawberry & Lime',
         'Type': 'Cider',
-        'ABV': null,
+        'ABV': 0,
         'Description': ''
       },
       {

@@ -254,12 +254,37 @@ p{
     color: #333333;
   }
 
-  .listName{
+  .listBrewer{
+    color: #656464;
     font-weight: bold;
+    font-size:14px;
+  }
+
+  .listName{
+    font-size:20px;
+    color: #131F46;
   }
 
   .listAbv{
     font-style:italic;
+    padding-left:1em
+  }
+
+  .filterInput{
+    padding: 0px;
+    border: 1px solid #a7a4a4;
+  }
+
+  .clearPadding{
+    padding:0;
+  }
+
+  .bottomPadding{
+    padding-bottom:15px;
+  }
+
+  .bottomPaddingSm{
+    padding-bottom:5px;
   }
 
 @media (min-width: 768px){

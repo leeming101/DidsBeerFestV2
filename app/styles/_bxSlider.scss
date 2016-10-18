@@ -15,9 +15,12 @@
 }
 
 #slider img { 
-	width:200px;
+	max-width:200px;
 	margin:auto;
-	display:inline-block  
+	display:inline-block;  
+	max-height:150px;
+	margin-top:auto;
+	margin-bottom:auto;
 }
 
 #slider li {
