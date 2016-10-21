@@ -34,7 +34,7 @@ angular.module('didsBeerFestV2App')
     $scope.craftList = [
       {
         'Brewer': 'Beavertown',
-        'Name': 'Beavertown IPA',
+        'Name': 'Gamma Ray',
         'Type': 'IPA',
         'ABV': 5.4,
         'Description': 'The concept was to create a juicy tropical beer. Rammed with juicy malts and huge tropical aromas of mango and grapefruit. Whole leaf American hops are added at the end of the boil to give huge hop flavour. The beer is then dry hopped for days, driving the punchy aroma so you can smell it from miles away.'
@@ -97,7 +97,7 @@ angular.module('didsBeerFestV2App')
       },
       {
         'Brewer': 'Marble',
-        'Name': 'Legonda',
+        'Name': 'Lagonda',
         'Type': 'IPA',
         'ABV': 5,
         'Description': 'Craft India Pale Ale with a golden malt base complementing a quadruple addition of hops. A floral and bitter finish.'
