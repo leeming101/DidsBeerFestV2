@@ -44,7 +44,8 @@ angular.module('didsBeerFestV2App')
         {link:'https://www.theepicureanbeers.co.uk/', img:'images/sponsors/31.png', rank: 0.5 - Math.random()},
         {link:'http://www.greensdidsbury.co.uk/', img:'images/sponsors/32.png', rank: 0.5 - Math.random()},
         {link:'http://stockportbrewingcompany.com/', img:'images/sponsors/33.png', rank: 0.5 - Math.random()},
-        {link:'https://burtonroadbrewing.co.uk/', img:'images/sponsors/34.png', rank: 0.5 - Math.random()}
+        {link:'https://burtonroadbrewing.co.uk/', img:'images/sponsors/34.png', rank: 0.5 - Math.random()},
+        {link:'https://southmanchesternews.co.uk/', img:'images/sponsors/35.png', rank: 0.5 - Math.random()}
       ];
       
       //example for js unit tests:
