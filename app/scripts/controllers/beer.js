@@ -175,14 +175,14 @@ angular.module('didsBeerFestV2App')
       },
       {
         'Brewer': 'Brightside Brewing Company',
-        'Name': 'Gridlock New World Amber IPA',
+        'Name': 'Gridlock',
         'Type': 'IPA',
         'ABV': 6.5,
         'Description': 'Made with 3 hops from the USA, New Zealand and Australia. It\'s a malty hoppy mouthful. Huge beer with big flavours.'
       },
       {
         'Brewer': 'Brightside Brewing Company',
-        'Name': 'Maverick IPA',
+        'Name': 'Maverick',
         'Type': 'IPA',
         'ABV': 4.8,
         'Description': 'Our CAMRA award winning IPA is light amber in colour and refreshingly hoppy with a mouth watering bitterness to the finish. Made predominantly with US Cascade hops expect grapefruit flavours and floral aromas with a light base of malt to balance.'
@@ -239,16 +239,16 @@ angular.module('didsBeerFestV2App')
       {
         'Brewer': 'Chantry Brewery',
         'Name': 'Special Reserve',
-        'Type': 'Strong',
+        'Type': 'Amber',
         'ABV': 6.3,
         'Description': 'A full bodied, rich well balanced ale. Maris Otter, Crystal, Wheat and Chocolate malts are combined with a double hop to produce a very drinkable malty beer with a hint of liquorice.'
       },
       {
         'Brewer': 'Chantry Brewery',
         'Name': 'DBF9',
-        'Type': '',
-        'ABV': 0,
-        'Description': 'Brewed specially for our beer festival.  Don\'t go home without trying this one!'
+        'Type': 'Ruby',
+        'ABV': 4.5,
+        'Description': 'Our festival ale has been brewed specially for the 9th Didsbury Beer Festival by Chantry Brewery in Rotherham.  Gentle caramel notes on the nose, toasted maltiness also in the background. All British hopped giving a spicy hop and a soft malt sweetness, before a lasting dry finish.  Don\’t go home without trying this one!'
       },
       {
         'Brewer': 'Cloudwater',
@@ -399,10 +399,17 @@ angular.module('didsBeerFestV2App')
       },
       {
         'Brewer': 'Geeves',
-        'Name': '',
-        'Type': '',
-        'ABV': 0,
-        'Description': ''
+        'Name': 'Clear Cut',
+        'Type': 'Pale',
+        'ABV': 4.4,
+        'Description': 'This is our flagship pale ale. We use low colour malt for a lustrous, sparkling body and bags of American hops for big flavours of pine resin, lemon, and grapefruit. This is crisp, clean and thirst-quenching. This is clear cut.'
+      },
+       {
+        'Brewer': 'Geeves',
+        'Name': 'Renaissance',
+        'Type': 'Red',
+        'ABV': 4.1,
+        'Description': 'This deep red ale is packed with sweet malts giving flavours of dark fruits and molasses whilst American Willamette hops bring a diverse array of spicy earthiness, lemon citrus and hints of floral apricot and peach.'
       },
       {
         'Brewer': 'Great Heck Brewing Co Ltd',
@@ -434,10 +441,10 @@ angular.module('didsBeerFestV2App')
       },
       {
         'Brewer': 'Hambleton Ales',
-        'Name': 'Stud',
+        'Name': 'Stud Blonde',
         'Type': 'Pale',
         'ABV': 4.3,
-        'Description': 'A refreshing, golden, easy drinking blonde. '
+        'Description': 'A refreshing, golden, easy drinking blonde. This beer is GLUTEN FREE'
       },
       {
         'Brewer': 'Happy Valley',
@@ -491,7 +498,7 @@ angular.module('didsBeerFestV2App')
       {
         'Brewer': 'Harviestoun Brewery',
         'Name': 'Schiehallion',
-        'Type': 'Lager',
+        'Type': 'Pale',
         'ABV': 4.8,
         'Description': 'Schiehallion is a stunning lager with elegant head and luscious lacing. It has \'aromas and flavours of fresh-cut grass, brown sugar, lychee and green mango\' [Melissa Cole] with a crisp palate and a lingering fresh grapefruity finish.  It\'s Pete\'s favourite.'
       },
@@ -594,6 +601,13 @@ angular.module('didsBeerFestV2App')
         'Description': 'Pale gold in colour with a floral spicy aroma and crisp refreshing taste.'
       },
       {
+        'Brewer': 'Moorhouse\'s',
+        'Name': 'Blond Witch',
+        'Type': 'Blonde',
+        'ABV': 4.5,
+        'Description': 'A pale coloured ale with a crisp delicate fruit flavour dry and refreshing with a smooth hop finish.'
+      },
+      {
         'Brewer': 'Nook Brewhouse',
         'Name': 'Berry Blonde',
         'Type': 'Blonde',
@@ -692,6 +706,27 @@ angular.module('didsBeerFestV2App')
         'Description': 'A surprisingly approachable smoked porter. Velvet smooth with a robust malt backbone. This is infused with Chipotles to give even more smokiness and a subtle hint of heat.'
       },
       {
+        'Brewer': 'Robinsons',
+        'Name': 'Old Tom',
+        'Type': 'Dark',
+        'ABV': 8.5,
+        'Description': 'Old Tom is almost as old as the brewery itself. Dubbed ‘The original craft beer’ this dangerously drinkable legend was born in 1899, when Tom, the old brewery cat, was sketched into immortality by the head brewer. Rich and warming, Old Tom has a distinctive deep port wine finish, with bitter hops balanced by the heady aromas of dark fruit.'
+      },
+      {
+        'Brewer': 'Robinsons',
+        'Name': 'Trooper',
+        'Type': 'Golden',
+        'ABV': 4.8,
+        'Description': 'Trooper is a premium british beer inspired by Iron Maiden and handcrafted at Robinsons Brewery.  Malt flavours and citric notes for a unique blend of Bobek, Goldings and Cascade hops give this deep golden ale a subtle hint of lemon. Trooper takes its name from the Iron Maiden song which itself was inspired by the famous Charge of the Light Brigade.'
+      },
+      {
+        'Brewer': 'Robinsons',
+        'Name': 'Trooper Red \'n\' Black',
+        'Type': 'Porter',
+        'ABV': 5.8,
+        'Description': 'Trooper is a premium british beer inspired by Iron Maiden and handcrafted at Robinsons Brewery.  Malt flavours and citric notes for a unique blend of Bobek, Goldings and Cascade hops give this deep golden ale a subtle hint of lemon. Trooper takes its name from the Iron Maiden song which itself was inspired by the famous Charge of the Light Brigade.'
+      },
+      {
         'Brewer': 'Sentinel',
         'Name': 'Ar - American Red',
         'Type': 'Red',
@@ -751,7 +786,7 @@ angular.module('didsBeerFestV2App')
         'Brewer': 'Stockport Brewing Co',
         'Name': 'Ginger Tinge',
         'Type': 'Amber',
-        'ABV': 4.3,
+        'ABV': 4.2,
         'Description': 'Cloudy golden coloured with floral hops and a full ginger finish.'
       },
       {
