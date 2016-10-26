@@ -27,6 +27,8 @@ module.exports = function (grunt) {
 
   var serveStatic = require('serve-static');
 
+  grunt.loadNpmTasks('grunt-manifest');
+
   // Define the configuration for all the tasks
   grunt.initConfig({
 
@@ -459,6 +461,34 @@ module.exports = function (grunt) {
         configFile: 'test/karma.conf.js',
         singleRun: true
       }
+    },
+
+    manifest: {
+      generate: {
+        options: {
+          basePath: 'dist/',
+          cache: [],
+          fallback: [],
+          exclude: [],
+          preferOnline: true,
+          verbose: true,
+          timestamp: true,
+          hash: true,
+          master: ['index.html'],
+        },
+        src: [
+          '*.html',
+          'scripts/*.js',
+          'styles/*.css',
+          'images/*.png',
+          'images/*.jpg',
+          'images/*.svg',
+          'images/sponsors/*.png',
+          'images/sponsors/*.jpg',
+          'bower_components/bootstrap-sass-official/assets/fonts/bootstrap/*'
+        ],
+        dest: 'dist/manifest.appcache'
+      }
     }
   });
 
@@ -507,7 +537,8 @@ module.exports = function (grunt) {
     'uglify',
     'filerev',
     'usemin',
-    'htmlmin'
+    'htmlmin',
+    'manifest:generate'
   ]);
 
   grunt.registerTask('default', [

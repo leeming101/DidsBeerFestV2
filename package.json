@@ -21,6 +21,7 @@
     "grunt-google-cdn": "^0.4.3",
     "grunt-jscs": "^3.0.1",
     "grunt-karma": "*",
+    "grunt-manifest": "^0.4.4",
     "grunt-mocha": "^1.0.2",
     "grunt-newer": "^1.1.0",
     "grunt-ng-annotate": "^2.0.2",
