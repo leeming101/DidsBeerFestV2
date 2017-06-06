@@ -72,7 +72,14 @@
                         <li id="lnkContact"><a ng-href="#/contact">Contact</a></li>
                         <li id="lnkVolunteer"><a ng-href="#/volunteer">Volunteer</a></li>
                         <li id="lnkMusic"><a ng-href="#/music">Music</a></li>
-                        <li id="lnkLastYear"><a ng-href="/lastyear">2016</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Previous Years <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li id="lnkLastYear"><a ng-href="/lastyear">2016</a></li>
+                                <li id="lnk2015"><a ng-href="/2015">2015</a></li>
+                                <li id="lnk2014"><a ng-href="/2014">2014</a></li>
+                            </ul>
+                        </li>
                         <li>
                             <a href="https://www.youtube.com/watch?v=BdoGr0ocBT4" class="youtubePopup">
                                 <span> Video</span>
