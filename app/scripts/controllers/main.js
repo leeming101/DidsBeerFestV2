@@ -8,28 +8,28 @@
  * Controller of the didsBeerFestV2App
  */
 angular.module('didsBeerFestV2App')
-  .controller('MainCtrl', function () {   
-      $('#lnkAbout').removeClass('active');
-      $('#lnkContact').removeClass('active');
-      $('#lnkHome').addClass('active');
-      $('#lnkFind').removeClass('active');
-      $('#lnkVolunteer').removeClass('active');
-      $('#lnkTickets').removeClass('active');
-      $('#lnkGoodCauses').removeClass('active');
-      $('#lnkMusic').removeClass('active');
-      $('#lnkCider').removeClass('active');
-      $('#lnkBeer').removeClass('active');
-      $('#lnkCraft').removeClass('active');
+    .controller('MainCtrl', function() {
+        $('#lnkAbout').removeClass('active');
+        $('#lnkContact').removeClass('active');
+        $('#lnkHome').addClass('active');
+        $('#lnkFind').removeClass('active');
+        $('#lnkVolunteer').removeClass('active');
+        $('#lnkTickets').removeClass('active');
+        $('#lnkGoodCauses').removeClass('active');
+        $('#lnkMusic').removeClass('active');
+        $('#lnkCider').removeClass('active');
+        $('#lnkBeer').removeClass('active');
+        $('#lnkCraft').removeClass('active');
 
-      //example for js unit tests:
-      this.awesomeThings = [ 
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+        //example for js unit tests:
+        this.awesomeThings = [
+            'HTML5 Boilerplate',
+            'AngularJS',
+            'Karma'
+        ];
 
-     var dateNow = new Date(2016, 9, 27, 19, 0, 0, 0);
-     
-    initializeClock('clockdiv', dateNow);
+        var dateNow = new Date(2017, 9, 26, 19, 0, 0, 0);
 
-  });
+        initializeClock('clockdiv', dateNow);
+
+    });
