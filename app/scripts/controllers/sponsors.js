@@ -19,7 +19,8 @@ angular.module('didsBeerFestV2App')
             { link: 'https://twitter.com/TheFletcherMoss', img: 'images/sponsors/17.png', rank: 0.5 - Math.random() },
             { link: 'https://en-gb.facebook.com/M-J-Leeming-Opticians-158925407454109/', img: 'images/sponsors/6.png', rank: 0.5 - Math.random() },
             { link: 'http://www.barneswalker.co.uk', img: 'images/sponsors/7.png', rank: 0.5 - Math.random() },
-            {link:'http://www.thebarbershopdidsbury.co.uk/', img:'images/sponsors/10.png', rank: 0.5 - Math.random()}
+            {link:'http://www.thebarbershopdidsbury.co.uk/', img:'images/sponsors/10.png', rank: 0.5 - Math.random()},
+            {link:'https://elmhousetreeservices.co.uk/', img:'images/sponsors/36.png', rank: 0.5 - Math.random()}           
 
             /*
             {link:'http://www.aqua-check.co.uk/', img:'images/sponsors/8.jpg', rank: 0.5 - Math.random()},
