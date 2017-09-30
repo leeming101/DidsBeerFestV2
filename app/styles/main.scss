@@ -25,12 +25,22 @@ body {
     color: #5f5c5c;
 }
 
-a {
+a,
+h3 {
     color: #d2232a;
 }
 
 .container {
     padding: 0;
+}
+
+.smallPrint {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.musicHeader {
+    margin-bottom: 0;
 }
 
 
