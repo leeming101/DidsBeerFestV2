@@ -19,8 +19,9 @@ angular.module('didsBeerFestV2App')
             { link: 'https://twitter.com/TheFletcherMoss', img: 'images/sponsors/17.png', rank: 0.5 - Math.random() },
             { link: 'https://en-gb.facebook.com/M-J-Leeming-Opticians-158925407454109/', img: 'images/sponsors/6.png', rank: 0.5 - Math.random() },
             { link: 'http://www.barneswalker.co.uk', img: 'images/sponsors/7.png', rank: 0.5 - Math.random() },
-            {link:'http://www.thebarbershopdidsbury.co.uk/', img:'images/sponsors/10.png', rank: 0.5 - Math.random()},
-            {link:'https://elmhousetreeservices.co.uk/', img:'images/sponsors/36.png', rank: 0.5 - Math.random()}           
+            { link: 'http://www.thebarbershopdidsbury.co.uk/', img: 'images/sponsors/10.png', rank: 0.5 - Math.random() },
+            { link: 'https://elmhousetreeservices.co.uk/', img: 'images/sponsors/36.png', rank: 0.5 - Math.random() },
+            { link: 'https://southmanchesternews.co.uk/', img: 'images/sponsors/35.png', rank: 0.5 - Math.random() }
 
             /*
             {link:'http://www.aqua-check.co.uk/', img:'images/sponsors/8.jpg', rank: 0.5 - Math.random()},
@@ -49,7 +50,7 @@ angular.module('didsBeerFestV2App')
             {link:'http://www.greensdidsbury.co.uk/', img:'images/sponsors/32.png', rank: 0.5 - Math.random()},
             {link:'http://stockportbrewingcompany.com/', img:'images/sponsors/33.png', rank: 0.5 - Math.random()},
             {link:'https://burtonroadbrewing.co.uk/', img:'images/sponsors/34.png', rank: 0.5 - Math.random()},
-            {link:'https://southmanchesternews.co.uk/', img:'images/sponsors/35.png', rank: 0.5 - Math.random()}*/
+            */
         ];
 
         //example for js unit tests:
