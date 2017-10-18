@@ -179,10 +179,6 @@ a {
     text-align: center;
 }
 
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: #131F46;
-}
-
 
 /* Custom page footer */
 
@@ -302,7 +298,7 @@ p {
 
 .listName {
     font-size: 20px;
-    color: #131F46;
+    color: #d2232a;
 }
 
 .listAbv {
@@ -380,24 +376,23 @@ p {
         box-shadow: none;
     }
     .navbar-default .navbar-nav .open .dropdown-menu>li>a {
-        color: #131F46;
+        color: #d2232a;
         text-align: center;
         font-size: 18px;
     }
     .navbar-default .navbar-nav .open .dropdown-toggle {
         background: none;
-        color: #131F46;
+        color: #d2232a;
     }
     .navbar-default .navbar-nav>.open>a,
     .navbar-default .navbar-nav>.open>a:hover,
     .navbar-default .navbar-nav>.open>a:focus {
         background: none;
-        color: #131F46;
+        color: #d2232a;
     }
     .navbar-default .navbar-nav .open .dropdown-menu>.active>a,
     .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover,
     .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus {
-        color: #131F46;
-        background-color: #337ab7;
+        color: #d2232a;
     }
 }
