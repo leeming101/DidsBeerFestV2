@@ -33,88 +33,74 @@ angular.module('didsBeerFestV2App')
 
     $scope.craftList = [
       {
-        'Brewer': 'Beavertown',
-        'Name': 'Gamma Ray',
-        'Type': 'IPA',
-        'ABV': 5.4,
-        'Description': 'The concept was to create a juicy tropical beer. Rammed with juicy malts and huge tropical aromas of mango and grapefruit. Whole leaf American hops are added at the end of the boil to give huge hop flavour. The beer is then dry hopped for days, driving the punchy aroma so you can smell it from miles away.'
-      },
-      {
-        'Brewer': 'Burton Rd',
-        'Name': 'Burton Rd Pale Ale',
-        'Type': 'IPA',
-        'ABV': 4.6,
-        'Description': '\"Our debut beer festival, and very excited about it. Our pale ale is light and refreshing with a biscuity aftertaste. But we want your thoughts on the taste so tweet to @burtonrdbrewing and we\'ll choose the best descriptions for our next festival. And there may be a prize for our favourite one.\" Kindly Sponsored By Burton Rd Brewery, Didsbury'
-      },
-      {
-        'Brewer': 'Geipel',
-        'Name': 'Aloha',
-        'Type': 'Pilsner',
+        'Brewer': 'Freedom',
+        'Name': 'Pacific',
+        'Type': 'Pale Ale',
         'ABV': 4.4,
-        'Description': 'A collaboration with Heavy Industry Brewing - a hazy golden pilsner which has been dry-hopped for an exotic aroma. It reminded us of a nearby tropical paradise: North Wales\' Bala Lake. Crisp pilsner flavour with an edge of sourness. Exotic hop bite and papaya-like aroma.'
+        'Description': 'A deep golden fruity pale made with pilsner malt and caramalt alongside Motueka, Pacific Jade and Rakau hops. SPONSORED BY BOTANIST BAR AND RESTAURANT, DIDSBURY.'
       },
       {
-        'Brewer': 'Geipel',
-        'Name': 'Hefeweizen',
-        'Type': 'Wheat',
-        'ABV': 5.6,
-        'Description': 'A golden wheat beer in the traditional Bavarian style. 75% wheat malt and Spalt Select hops. Gentle wheat malt notes and rich aroma of banana and coriander. Refreshing, lingering finish with some lemon citrus notes.'
+        'Brewer': 'Beatnikz Republic',
+        'Name': 'Beach Bum',
+        'Type': 'American Pale Ale',
+        'ABV': 5,
+        'Description': 'Beer for drinking in the sun, preferably in California. American Pale Ale with Mosaic and Azacca hops.'
       },
       {
-        'Brewer': 'Geipel',
-        'Name': 'Pilsner',
-        'Type': 'Pilsner',
-        'ABV': 4.4,
-        'Description': 'A golden lager with depth and complexity, brewed with Pearle hops. Slightly floral, hoppy perfume aroma. Dry refreshing taste and finish with hints of fruit.'
+        'Brewer': 'Beatnikz Republic',
+        'Name': 'Generation',
+        'Type': 'IPA',
+        'ABV': 6.5,
+        'Description': 'The malt base is simple, the hops big and intense. Mosaic, Simcoe and Ekuanot hops give full flavour and a bitter finish.'
       },
       {
-        'Brewer': 'Geipel',
-        'Name': 'Zoigl',
-        'Type': 'Amber',
-        'ABV': 5.4,
-        'Description': 'A malty amber lager inspired by the traditional communal brews of North-Eastern Bavaria. Brewed from Hersbucker hops giving a biscuity malty flavour withe arthy hops underlying chocolate cherry fruit in the lingering finish.'
+        'Brewer': 'Beatnikz Republic',
+        'Name': 'Riviera Dreamer',
+        'Type': 'Wheat Beer',
+        'ABV': 4.5,
+        'Description': 'A medium-bodied citrus-forward wheat beer packed with grapefruit freshness.'
+      }      ,
+      {
+        'Brewer': 'Beatnikz Republic',
+        'Name': 'Russian Riot',
+        'Type': 'Stout',
+        'ABV': 9,
+        'Description': 'Massive stout with muscovado sugar, cherries and bourbon oak. Full of depth and character.'
       },
       {
-        'Brewer': 'Hawkshead',
-        'Name': 'Lakeland Lager',
-        'Type': 'Lager',
-        'ABV': 5.0,
-        'Description': 'A crisp refreshing premium beer, brewed with lager malt, wheat, European hops, soft Lakeland water and ale yeast, top fermented for maximum flavour.'
+        'Brewer': 'Brightside',
+        'Name': 'Wildside V2 Session Pale Ale',
+        'Type': 'Pale Ale',
+        'ABV': 4,
+        'Description': 'From Brightside brewery, pale ale brewed with juicy Simcoe and Calypso hops on a malt and wheat base, with dry hopping for an extra boost. GLUTEN FREE.'
       },
       {
-        'Brewer': 'The Kernel',
+        'Brewer': 'Squawk',
         'Name': 'Table Beer',
         'Type': 'Pale Ale',
         'ABV': 3.3,
-        'Description': 'Brewed in Bermondsey with Columbus, Summit and Citra hops. Citrus and tropical fruit chracters with a dry moderately bitter finish. Kindly Sponsored By The Epicurian, Didsbury'
+        'Description': 'A medium-bodied, hop-forward pale ale that belies its low ABV. Controlled fermentation produces a robust and refreshing beer.'
       },
       {
-        'Brewer': 'Liverpool Craft Beer Co',
-        'Name': 'Love Lane Pale Ale',
-        'Type': 'Pale Ale',
-        'ABV': 4.4,
-        'Description': 'Originally brewed under a railway bridge on the famous Liverpool Love Lane. The biscuit malt balances the whole leaf citrus hops for a refreshing lasting taste. Kindly Sponsored By Greens Restaurant, Didsbury'
-      },
-      {
-        'Brewer': 'Marble',
-        'Name': 'Lagonda',
+        'Brewer': 'Cloudwater',
+        'Name': 'Pineapple',
         'Type': 'IPA',
-        'ABV': 5,
-        'Description': 'Craft India Pale Ale with a golden malt base complementing a quadruple addition of hops. A floral and bitter finish.'
+        'ABV': 7.5,
+        'Description': 'A double IPA fermented with pineapple and dry hopped with Galaxy and Citra. Brewed in collaboration with The Veil.'
       },
       {
-        'Brewer': 'Outstanding',
-        'Name': 'Outstanding IPA',
+        'Brewer': 'Cloudwater',
+        'Name': 'Lychee Pale',
         'Type': 'IPA',
-        'ABV': 5.5,
-        'Description': 'Dry and bitter with a good load of hop. Kindly Sponsored By Outstanding Brewery, Bury'
+        'ABV': 6.5,
+        'Description': 'Brewed in collaboration with Beijing\'s Jing-A brewery, this IPA is made with masses of lychees, and is dry hopped with Citra.'
       },
       {
-        'Brewer': 'Powderkeg',
-        'Name': 'Mosaic RyePA',
-        'Type': 'IPA',
-        'ABV': 5,
-        'Description': 'This is a pale ale/IPA crossover with the addition of rye that adds a touch of spice and complexity to the fulsome malt character. It is then dry hopped with the stunning Mosaic hop from Americato give big tropical fruit aromas and general all-round awesomeness. Kindly Sponsored By Bottle, Heaton Moor'
+        'Brewer': 'Cloudwater',
+        'Name': 'Black Forest Stout',
+        'Type': 'Stout',
+        'ABV': 11.5,
+        'Description': 'Brewed in collaboration with Norway\'s Lervig brewery, this full-bodied Imperial Stout is made with both sour and sweet cherry juice and plenty of ground Tonka beans.'
       }
     ];
   });

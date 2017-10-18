@@ -61,21 +61,21 @@ angular
         controller: 'MusicCtrl',
         controllerAs: 'music'
       })
-       .when('/beer', {
-         templateUrl: 'views/beer.html',
-         controller: 'BeerCtrl',
-         controllerAs: 'beer'
-       })
-       .when('/cider', {
-         templateUrl: 'views/cider.html',
-         controller: 'CiderCtrl',
-         controllerAs: 'cider'
-       })
-       .when('/craft', {
-         templateUrl: 'views/craft.html',
-         controller: 'CraftCtrl',
-         controllerAs: 'craft'
-       })
+      .when('/beer', {
+        templateUrl: 'views/beer.html',
+        controller: 'BeerCtrl',
+        controllerAs: 'beer'
+      })
+      .when('/cider', {
+        templateUrl: 'views/cider.html',
+        controller: 'CiderCtrl',
+        controllerAs: 'cider'
+      })
+      .when('/craft', {
+        templateUrl: 'views/craft.html',
+        controller: 'CraftCtrl',
+        controllerAs: 'craft'
+      })
       .when('/lastyear', {
         redirectTo: '/lastyear'
       })
@@ -90,3 +90,20 @@ angular
         libraries: 'weather,geometry,visualization'
     });
   });
+
+  window.addEventListener('load', function(e) {
+    if (window.applicationCache) {
+        window.applicationCache.addEventListener('updateready', function(e) {
+            if (window.applicationCache.status === window.applicationCache.UPDATEREADY) {
+                // Browser downloaded a new app cache.
+                // Swap it in and reload the page to get the new hotness.
+                window.applicationCache.swapCache();
+                if (window.confirm('A new version of this site is available. Load it?')) {
+                    window.location.reload(true);
+                }
+            } else {
+                // Manifest didn't changed. Nothing new to server.
+            }
+        }, false);
+    }
+}, false);
