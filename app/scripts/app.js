@@ -76,6 +76,9 @@ angular
         controller: 'CraftCtrl',
         controllerAs: 'craft'
       })
+      .when('/raffle', {
+        templateUrl: 'views/raffle.html'
+      })
       .when('/lastyear', {
         redirectTo: '/lastyear'
       })
