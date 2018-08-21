@@ -19,7 +19,6 @@
     "grunt-contrib-uglify": "^3.4.0",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-filerev": "^2.1.2",
-    "grunt-google-cdn": "^0.4.3",
     "grunt-jscs": "^3.0.1",
     "grunt-karma": "*",
     "grunt-manifest": "^0.4.4",
@@ -45,5 +44,8 @@
   },
   "scripts": {
     "test": "grunt test"
+  },
+  "dependencies": {
+    "uko-grunt-google-cdn": "^0.5.2"
   }
 }
