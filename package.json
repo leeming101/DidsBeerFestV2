@@ -4,7 +4,7 @@
   "devDependencies": {
     "autoprefixer": "^6.4.0",
     "cdnify": "^0.1.4",
-    "grunt": "^1.0.1",
+    "grunt": "^1.0.3",
     "grunt-angular-templates": "^1.0.4",
     "grunt-concurrent": "^2.3.0",
     "grunt-contrib-clean": "^1.0.0",
