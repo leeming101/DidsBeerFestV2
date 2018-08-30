@@ -79,7 +79,7 @@ a {
 
 .header {
     border-bottom: 1px solid #e5e5e5;
-    background-color: #ffffff;
+    background-color: #09875d;
     /* Make the masthead heading the same height as the navigation */
     h3 {
         margin-top: 0;
@@ -157,16 +157,16 @@ a {
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #d2232a;
+    color: #ffffff;
     background-color: rgba(19, 31, 70, 0.22);
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: #d2232a;
+    color: #ffffff;
 }
 
 .navbar-default .navbar-nav>li>a>span {
-    color: #d2232a;
+    color: #ffffff;
 }
 
 .navbar-default .navbar-toggle:hover,
@@ -183,6 +183,10 @@ a {
 
 .navbar-nav {
     text-align: center;
+}
+
+.caret{
+    color: #fcb813 !important;
 }
 
 
