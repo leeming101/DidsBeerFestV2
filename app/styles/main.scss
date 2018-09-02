@@ -126,6 +126,10 @@ a {
     max-height: 215px;
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fcb813;
+}
+
 .container>.navbar-header {
     margin-left: 0;
 }
@@ -365,7 +369,7 @@ p {
 }
 
 .navSocial>p>a {
-    color: #5f5c5c !important;
+    color: #fcb813 !important;
     font-size: 26px;
 }
 
