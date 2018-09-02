@@ -26,7 +26,7 @@ body {
 }
 
 a {
-    color: #d2232a;
+    color: #09875d;
 }
 
 .container {
@@ -40,7 +40,7 @@ a {
 
 .musicHeader {
     margin-bottom: 0;
-    color: #d2232a;
+    color: #09875d;
 }
 
 .bandDiv {
@@ -94,7 +94,7 @@ a {
     width: 100%;
     top: 0;
     left: 0;
-    background-color: #ffffff;
+    background-color: #09875d;
     z-index: 10000;
     transition: all 0.3s ease-in-out;
 }
@@ -185,7 +185,7 @@ a {
     text-align: center;
 }
 
-.caret{
+.caret {
     color: #fcb813 !important;
 }
 
@@ -308,7 +308,7 @@ p {
 
 .listName {
     font-size: 20px;
-    color: #d2232a;
+    color: #09875d;
 }
 
 .listAbv {
@@ -386,23 +386,25 @@ p {
         box-shadow: none;
     }
     .navbar-default .navbar-nav .open .dropdown-menu>li>a {
-        color: #d2232a;
+        color: #fff;
         text-align: center;
         font-size: 18px;
     }
     .navbar-default .navbar-nav .open .dropdown-toggle {
         background: none;
-        color: #d2232a;
+        color: #fff;
     }
     .navbar-default .navbar-nav>.open>a,
-    .navbar-default .navbar-nav>.open>a:hover,
-    .navbar-default .navbar-nav>.open>a:focus {
+    .navbar-default .navbar-nav>.open>a:hover {
         background: none;
-        color: #d2232a;
+        color: #333333;
+    }
+    .navbar-default .navbar-nav>li>a:focus {
+        color: #ffffff !important;
     }
     .navbar-default .navbar-nav .open .dropdown-menu>.active>a,
     .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover,
     .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus {
-        color: #d2232a;
+        color: #09875d;
     }
 }
