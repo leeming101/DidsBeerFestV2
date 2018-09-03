@@ -366,6 +366,9 @@ p {
     .navSocial {
         display: none !important;
     }
+    .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+        margin-left: 0;
+    }
 }
 
 .navSocial>p>a {
