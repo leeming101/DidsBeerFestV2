@@ -1,3 +1,36 @@
 <div class="row marketing col-md-12">
-    <p style="font-style:italic; padding:10px">Coming soon... check back later for updates, or visit us on Twitter or Facebook</p>
+    <h2>Cider List</h2>
+    <div class="col-md-12 clearPadding bottomPadding">
+        <div class="col-md-6 clearPadding bottomPaddingSm">
+            <span>Sort By:</span>
+            <br>
+            <select ng-init="sortBy = 'Brewer'" ng-model="sortBy">
+        <option value="Brewer">Brewer (A to Z)</option>
+        <option value="-Brewer">Brewer (Z to A)</option>
+        <option value="Name">Name (A to Z)</option>
+        <option value="-Name">Name (Z to A)</option>
+        <option value="ABV">ABV (Lowest First)</option>
+        <option value="-ABV">ABV (Highest First)</option>
+        <option value="Type">Type</option>
+      </select>
+        </div>
+        <div class="col-md-6 clearPadding">
+            <span>Filter By:</span>
+            <br>
+            <input class="filterInput" ng-model="query" type="text" placeholder="Type here to filter the list">
+        </div>
+    </div>
+    <br>
+    <div ng-repeat="cider in ciderList | filter:query | orderBy: sortBy ">
+        <p>
+            <span class="listBrewer">{{cider.Brewer}}</span>
+            <br>
+            <span class="listName">{{cider.Name}}</span>
+            <span class="listAbv">
+                <span ng-if="cider.ABV != 0">{{cider.ABV}}%</span> {{cider.Type}}
+            </span>
+            <br> {{cider.Description}}
+        </p>
+        <br>
+    </div>
 </div>

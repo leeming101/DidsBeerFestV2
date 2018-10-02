@@ -29,6 +29,12 @@ a {
     color: #09875d;
 }
 
+a:hover,
+a:focus {
+    color: #fcb813;
+    text-decoration: underline;
+}
+
 .container {
     padding: 0;
 }
@@ -52,7 +58,7 @@ a {
 .dropdown-menu>.active>a,
 .dropdown-menu>.active>a:focus,
 .dropdown-menu>.active>a:hover {
-    background-color: #d1232b;
+    background-color: #09875d;
 }
 
 
@@ -366,7 +372,8 @@ p {
     .navSocial {
         display: none !important;
     }
-    .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    .navbar>.container .navbar-brand,
+    .navbar>.container-fluid .navbar-brand {
         margin-left: 0;
     }
 }
