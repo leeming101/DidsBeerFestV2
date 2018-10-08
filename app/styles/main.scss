@@ -136,6 +136,11 @@ a:focus {
     background-color: #fcb813;
 }
 
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    color: #fcb813;
+}
+
 .container>.navbar-header {
     margin-left: 0;
 }
