@@ -2,6 +2,9 @@ sudo: false
 language: node_js
 node_js:
   - '10.11'
+before_install:
+  - gem install compass
 before_script:
   - 'npm install -g bower grunt-cli'
   - 'bower install'
+script: grunt
