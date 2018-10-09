@@ -28,8 +28,4 @@ angular.module('didsBeerFestV2App')
             'Karma'
         ];
 
-        var dateNow = new Date(2017, 9, 26, 19, 0, 0, 0);
-
-        initializeClock('clockdiv', dateNow);
-
     });

@@ -29,6 +29,12 @@ a {
     color: #09875d;
 }
 
+a:hover,
+a:focus {
+    color: #fcb813;
+    text-decoration: underline;
+}
+
 .container {
     padding: 0;
 }
@@ -52,7 +58,7 @@ a {
 .dropdown-menu>.active>a,
 .dropdown-menu>.active>a:focus,
 .dropdown-menu>.active>a:hover {
-    background-color: #d1232b;
+    background-color: #09875d;
 }
 
 
@@ -68,10 +74,13 @@ a {
 .rowPadding {
     padding-left: 40px;
     padding-right: 40px;
-    padding-top: 15px;
     padding-bottom: 15px;
-    margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.ticketRow {
+    padding-top: 15px;
+    margin-top: 10px;
 }
 
 
@@ -130,6 +139,11 @@ a {
     background-color: #fcb813;
 }
 
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    color: #fcb813;
+}
+
 .container>.navbar-header {
     margin-left: 0;
 }
@@ -142,7 +156,7 @@ a {
 }
 
 .image {
-    width: 75%;
+    width: 72%;
     height: auto;
     max-height: 200px;
     padding-top: 4%;
@@ -226,6 +240,13 @@ a {
     }
 }
 
+.marketingWide {
+    margin: 0;
+    p+h4 {
+        margin-top: 0;
+    }
+}
+
 
 /* Responsive: Portrait tablets and up */
 
@@ -236,6 +257,7 @@ a {
     /* Remove the padding we set earlier */
     .header,
     .marketing,
+    .marketingWide,
     .footer {
         padding-left: 0;
         padding-right: 0;
@@ -287,7 +309,7 @@ p {
 }
 
 #beerImg {
-    width: 25%;
+    width: 30%;
     margin: auto;
 }
 
@@ -366,7 +388,8 @@ p {
     .navSocial {
         display: none !important;
     }
-    .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    .navbar>.container .navbar-brand,
+    .navbar>.container-fluid .navbar-brand {
         margin-left: 0;
     }
 }
