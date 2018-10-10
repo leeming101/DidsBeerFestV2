@@ -1,10 +1,18 @@
 sudo: false
 language: node_js
 node_js:
-  - '10.11'
+- '10.11'
 before_install:
-  - gem install compass
+- gem install compass
 before_script:
-  - 'npm install -g bower grunt-cli'
-  - 'bower install'
+- npm install -g bower grunt-cli
+- bower install
 script: grunt
+env:
+  global:
+    secure: n4NvDm91MpF1+oe1/Serdny0mKFRdEXmwZClJKXdDbDv+GRN+Zb1P/P2wMpPg9oBEGtAI3JaQ8ap68eZsOplWRKt3sQWD3OyK9wB7sEJsjbLPJLKBOR2oshr6qEFd51PWrNpSMfRGqgopf+m4TEFibibUpREm/zFOlhhZ5JD4EIxmKclii/GLYjI4Iq40vn8P9mxgyeTjwYzMgyrehDOI83932ulfO2+Jh/jbNRJ7owKcIoB5pWv3KpB0M8Ut0L50O4OkgAZgntdWmFygRGNjk24aNkq4rNie73zCcy0hGdsJezZUNmoXQt9rh9YZiAE6BZSLYIRNCvNOmHzkqBK+dnlw099AqtVkElwS0G2QbiNwZrrOaaTIOjZWT1Hkf5dgPZyfoatObQEr5m2MvEQdemQHP3Jd3OeFBUo5GLxJHQHhfeykfV8oIcMalzB19FNQ0NU4ih5CHaOe0+SsnPWKVwbBhYJI340UV+81fskDXDXmlhziedt/gsYtMXDNtnlWAS9t/BQByb8973JDT1D9oRBPe4a9hYCqYDnMrepcoWCPnT1K3z8Q5vJNS1aE45E2VJl0y+hQEM/WWNHSYpzTEcy1KVObfkx8b9HLx5Cu3M6FoBvzRIIpM5wQC3wAm7+c0rZa0lLlD8eAtxGy7SymOHnAJIjJZ/nWBYRCBQSXlA=
+deploy:
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  
+  keep-history: true
+  target-branch: builds
