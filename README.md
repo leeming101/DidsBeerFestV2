@@ -15,7 +15,7 @@ bower install
 
 ## Development
 
-Running `grunt serve` (from a terminal or command window) within the repository directory.
+Running `grunt serve` (from a terminal or command window) within the repository directory will preview the site locally, allowing you to see any changes before committing.
 
 ## Building
 
