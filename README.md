@@ -3,11 +3,28 @@
 Generated with [yo angular generator](https://github.com/yeoman/generator-angular)
 version 0.15.1.
 
-## Build & development
+## Prerequisites
 
-Run `grunt` for building and `grunt serve` for preview.
+Ruby & Node must be installed on the dev machine
 
-Didsbury Beer Festival 2016
+### Run the following commands to provision your dev environment:
+gem install compass
+npm install -g bower grunt-cli
+bower install
+
+
+## Development
+
+Running `grunt serve` (from a terminal or command window) within the repository directory.
+
+## Building
+
+https://travis-ci.org/leeming101/DidsBeerFestV2
 
 ## Deployment
-Deployment is a manual process which is triggered using DeployBot. There are two environments: Staging & Production
+
+Deployment is triggered using DeployBot. There are two environments: Staging & Production.
+
+Staging is deployed to automatically on success of a build in Travis CI
+
+https://didsbeerfest.deploybot.com/
