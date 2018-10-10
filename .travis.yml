@@ -16,3 +16,7 @@ deploy:
   github-token: $GITHUB_TOKEN  
   keep-history: true
   target-branch: builds
+# safelist
+branches:
+  only:
+  - master
