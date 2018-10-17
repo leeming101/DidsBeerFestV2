@@ -1,10 +1,10 @@
 <div class="row marketing col-md-12">
-	<h2>Keg Lager &amp; Ale List</h2>
-	<div class="col-md-12 clearPadding bottomPadding">
-		<div class="col-md-6 clearPadding bottomPaddingSm">
-			<span>Sort By:</span>
-			<br>
-			<select ng-init="sortBy = 'Brewer'" ng-model="sortBy">
+    <h2>Lager &amp; Craft Keg List</h2>
+    <div class="col-md-12 clearPadding bottomPadding">
+        <div class="col-md-6 clearPadding bottomPaddingSm">
+            <span>Sort By:</span>
+            <br>
+            <select ng-init="sortBy = 'Brewer'" ng-model="sortBy">
                 <option value="Brewer">Brewer (A to Z)</option>
                 <option value="-Brewer">Brewer (Z to A)</option>
                 <option value="Name">Name (A to Z)</option>
@@ -13,19 +13,24 @@
                 <option value="-ABV">ABV (Highest First)</option>
                 <option value="Type">Type</option>
             </select>
-		</div>
-		<div class="col-md-6 clearPadding">
-			<span>Filter By:</span>
-			<br>
-			<input class="filterInput" ng-model="query" type="text" placeholder="Type here to filter the list">
-		</div>
-	</div>
-	<br>
-	<div ng-repeat="craft in craftList | filter:query | orderBy: sortBy ">
-		<p>
-			<span class="listBrewer">{{craft.Brewer}}</span><br><span class="listName">{{craft.Name}}</span><span class="listAbv"><span ng-if="craft.ABV != 0">{{craft.ABV}}%</span> {{craft.Type}}</span>
-			<br>{{craft.Description}}
-		</p>
-		<br>
-	</div>
+        </div>
+        <div class="col-md-6 clearPadding">
+            <span>Filter By:</span>
+            <br>
+            <input class="filterInput" ng-model="query" type="text" placeholder="Type here to filter the list">
+        </div>
+    </div>
+    <br>
+    <div ng-repeat="craft in craftList | filter:query | orderBy: sortBy ">
+        <p>
+            <span class="listBrewer">{{craft.Brewer}}</span>
+            <br>
+            <span class="listName">{{craft.Name}}</span>
+            <span class="listAbv">
+				<span ng-if="craft.ABV != 0">{{craft.ABV}}%</span> {{craft.Type}}
+            </span>
+            <br>{{craft.Description}}
+        </p>
+        <br>
+    </div>
 </div>
