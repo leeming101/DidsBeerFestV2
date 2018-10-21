@@ -37,14 +37,14 @@ angular.module('didsBeerFestV2App')
                 'Name': 'Daily Bread',
                 'Type': 'Bitter',
                 'ABV': 3.8,
-                'Description': 'Classic English bitter: copper coloured'
+                'Description': 'Classic English bitter: copper coloured, well balanced, malty flavours and a smooth bitter finish'
             },
             {
                 'Brewer': 'Abbeydale',
                 'Name': 'Absolution',
                 'Type': 'Golden',
                 'ABV': 5.3,
-                'Description': 'A deceptively easy-drinking strong beer'
+                'Description': 'A deceptively easy-drinking strong beer, subtle and easy-going, fruity and gorgeous.'
             },
             {
                 'Brewer': 'Abbeydale',
@@ -65,28 +65,28 @@ angular.module('didsBeerFestV2App')
                 'Name': 'Nova',
                 'Type': 'Pale',
                 'ABV': 3.8,
-                'Description': 'A light malt base; Maris Otter'
+                'Description': 'A light malt base; Maris Otter, CaraPils and wheat malt allows the bright, fresh and zesty hop aromas to shine - underpinned by herbal and floral notes'
             },
             {
                 'Brewer': 'Bristol Beer Factory',
                 'Name': 'Dove From Above',
                 'Type': 'Pale',
                 'ABV': 5,
-                'Description': 'A Dual Hop Series beer. French Aramis is full of aroma but very different from the dank'
+                'Description': 'A Dual Hop Series beer. French Aramis is full of aroma but very different from the dank, resinous US Eureka and the two create a unique blend of flavours'
             },
             {
                 'Brewer': 'Box Steam',
                 'Name': 'Ghost Train',
                 'Type': 'Ruby',
                 'ABV': 4.8,
-                'Description': 'Featuring black pepper and liquorice flavours'
+                'Description': 'Featuring black pepper and liquorice flavours, its roasted malts and Colombus hops conspire to take you on a ride you won\'t forget.'
             },
             {
                 'Brewer': 'Box Steam',
                 'Name': 'Piston Broke',
                 'Type': 'Golden',
                 'ABV': 4.5,
-                'Description': 'A fine'
+                'Description': 'A fine, full-bodied golden ale with a clean, refreshing bittersweet taste and a fruity, hoppy aroma'
             },
             {
                 'Brewer': 'Bollington',
@@ -100,14 +100,14 @@ angular.module('didsBeerFestV2App')
                 'Name': 'Ginger Brew',
                 'Type': 'Pale',
                 'ABV': 4.1,
-                'Description': 'A classic ginger bitter'
+                'Description': 'A classic ginger bitter, pale hoppy bitter flavour, a smooth taste with fresh root ginger added at the end.'
             },
             {
                 'Brewer': 'Bollington',
                 'Name': 'Long Hop',
                 'Type': 'Pale',
                 'ABV': 3.9,
-                'Description': 'Pale lager style bitter with fruity refreshing hops'
+                'Description': 'Pale lager style bitter with fruity refreshing hops, former summer special brewed for cricket lovers now a permanent beer.'
             },
             {
                 'Brewer': 'Bollington',
@@ -128,14 +128,14 @@ angular.module('didsBeerFestV2App')
                 'Name': 'Dinner Ale',
                 'Type': 'Pale',
                 'ABV': 4.3,
-                'Description': 'Deep copper coloured beer with a fresh slightly fruity nose'
+                'Description': 'Deep copper coloured beer with a fresh slightly fruity nose, a traditional style bitter with a dry hoppy finish.'
             },
             {
                 'Brewer': 'Binghams',
                 'Name': 'Vanilla Stout',
                 'Type': 'Stout',
                 'ABV': 5,
-                'Description': 'This stout is infused with vanilla pods which complement the dark malts to create a smooth drinking'
+                'Description': 'This stout is infused with vanilla pods which complement the dark malts to create a smooth drinking, deliciously dark stout.'
             },
             {
                 'Brewer': 'Blackjack',
@@ -163,28 +163,28 @@ angular.module('didsBeerFestV2App')
                 'Name': 'Four Horseman',
                 'Type': 'Oat Stout',
                 'ABV': 5,
-                'Description': 'Brewed with just over 10% oat malt (rather than flakes) in the grist'
+                'Description': 'Brewed with just over 10% oat malt (rather than flakes) in the grist, this stout shows a silkier body and denser head than a regular stout; perfect for a comforting pint as the colder nights draw in!'
             },
             {
                 'Brewer': 'Brightside',
                 'Name': 'Topaz',
                 'Type': 'Pale',
                 'ABV': 5,
-                'Description': 'Single hop IPA showcasing the best of the Topaz hop flavour profile. Fresh resinous aromatics'
+                'Description': 'Single hop IPA showcasing the best of the Topaz hop flavour profile. Fresh resinous aromatics, juicy fruit and a thirst quenching citrusy bitterness matched with a rich malty base are a winning combination'
             },
             {
                 'Brewer': 'Brightside',
                 'Name': 'Pale',
                 'Type': 'Pale',
                 'ABV': 4.5,
-                'Description': 'Generous late hopping from Columbus'
+                'Description': 'Generous late hopping from Columbus, Comet and Citra produces bold, integrated hop flavours and aromatics, and a moderately bitter finish to our light copper coloured pale ale'
             },
             {
                 'Brewer': 'Brightside',
                 'Name': 'Uncle Dunkel',
                 'Type': 'Dark Lager',
                 'ABV': 5,
-                'Description': 'Brewed with a shed-load of tasty dark malts'
+                'Description': 'Brewed with a shed-load of tasty dark malts, it\'s predictably one for the malted milk biscuit lover! On the hops side of things we kept it mainly classic with Hallertauer Mittelfruh & Hallertauer Blanc, but with an additional pop of colour from the Polaris.'
             },
             {
                 'Brewer': 'Brightside',
@@ -198,7 +198,7 @@ angular.module('didsBeerFestV2App')
                 'Name': 'Maverick',
                 'Type': 'IPA',
                 'ABV': 4.8,
-                'Description': 'Maverick IPA is American in style and multi-national in hop content (mostly US with a touch of NZ)! Lightly caramelized malts provide the central core'
+                'Description': 'Maverick IPA is American in style and multi-national in hop content (mostly US with a touch of NZ)! Lightly caramelized malts provide the central core, but the American Cascade is the main attraction bringing bold grapefruit and floral aromas to the beer, which finishes with a clean, refreshing bitterness.'
             },
             {
                 'Brewer': 'Brotherhood',
@@ -212,14 +212,14 @@ angular.module('didsBeerFestV2App')
                 'Name': 'Mango Pale Ale',
                 'Type': 'Pale',
                 'ABV': 4,
-                'Description': '100 pureed mangoes help bring out the sun with this smooth'
+                'Description': '100 pureed mangoes help bring out the sun with this smooth, easy drinking pale. Perle and Mosaic help bring out the fruity flavours, with malt complexity from Caramalt and Crystal 150.\''
             },
             {
                 'Brewer': 'Brinkburn St',
                 'Name': 'Tyne Titans',
                 'Type': 'Session IPA',
                 'ABV': 4.2,
-                'Description': 'Refreshing beer with a golden and reddish hue. Cara Ruby and Cara Red malt'
+                'Description': 'Refreshing beer with a golden and reddish hue. Cara Ruby and Cara Red malt, with wheat and four different American hops (Citra, Mount Hood, Simcoe and Willamette) which will leave you with a fruity-dry mouth feel'
             },
             {
                 'Brewer': 'Brinkburn St',
@@ -233,42 +233,42 @@ angular.module('didsBeerFestV2App')
                 'Name': 'House of the Rising Sun',
                 'Type': 'Choc Rasp Porter',
                 'ABV': 7.2,
-                'Description': 'This luxurious and decadent chocolate raspberry porter has been designed for those who like the finer things in life'
+                'Description': 'This luxurious and decadent chocolate raspberry porter has been designed for those who like the finer things in life, like beer, raspberries, and chocolate.\''
             },
             {
                 'Brewer': 'Charnwood',
                 'Name': 'Salvation',
                 'Type': 'Golden',
                 'ABV': 3.8,
-                'Description': 'A light refreshing golden beer'
+                'Description': 'A light refreshing golden beer, with tropical fruit, citrus, and floral flavours. American Cascade and Amarillo hops create a citrus aroma, and crisp clean bitterness on the finish.'
             },
             {
                 'Brewer': 'Charnwood',
                 'Name': 'Hubble Bubble',
                 'Type': 'Amber',
                 'ABV': 4.4,
-                'Description': 'A copper autumnal ale with hints of honey'
+                'Description': 'A copper autumnal ale with hints of honey, spice, and marmalade. The crystal malts give a subtle bitter-sweet flavour to balance the spicy, orangey hops.'
             },
             {
                 'Brewer': 'Cross bay',
                 'Name': 'Green Eyed Monster',
                 'Type': 'Pale (green hop)',
                 'ABV': 4.1,
-                'Description': 'Their first �Green Hopped Beer� (brewed with hops fresh off the vine). With a light'
+                'Description': 'Their first \'Green Hopped Beer\' (brewed with hops fresh off the vine). With a light, refreshing colour, this beer has a rich malty taste and is generously hopped for full flavour'
             },
             {
                 'Brewer': 'Cross bay',
                 'Name': 'Witching Hour',
                 'Type': 'Wheat',
                 'ABV': 4.4,
-                'Description': 'A crystal wheat beer'
+                'Description': 'A crystal wheat beer, which is clear and refreshing with a strong malty body, only moderately hopped to add a delicious finish.'
             },
             {
                 'Brewer': 'Cross bay',
                 'Name': 'R.I.P.A.',
                 'Type': 'Red IPA',
                 'ABV': 4,
-                'Description': 'A session IPA brewed with a blend of English malts generous additions of Simcoe hops for a passion fruit'
+                'Description': 'A session IPA brewed with a blend of English malts generous additions of Simcoe hops for a passion fruit, pine and berries flavour and aroma.'
             },
             {
                 'Brewer': 'Chapter',
@@ -282,7 +282,7 @@ angular.module('didsBeerFestV2App')
                 'Name': 'Parabola',
                 'Type': 'Pale',
                 'ABV': 4.7,
-                'Description': 'Parabola is a punchy'
+                'Description': 'Parabola is a punchy, fragrant APA with a huge Columbus burst that complements the smooth malt bill'
             },
             {
                 'Brewer': 'Chapter',
@@ -317,14 +317,14 @@ angular.module('didsBeerFestV2App')
                 'Name': 'Diamond Black',
                 'Type': 'Stout',
                 'ABV': 4.5,
-                'Description': 'A distinctive full bodied stout with liquorice tones and subtle hints of chocolate and coffee. Brewed using the finest Yorkshire malt and roast barley'
+                'Description': 'A distinctive full bodied stout with liquorice tones and subtle hints of chocolate and coffee. Brewed using the finest Yorkshire malt and roast barley, deliciously smooth and creamy.'
             },
             {
                 'Brewer': 'Chantry',
                 'Name': 'Special Reserve',
                 'Type': 'Strong Bitter',
                 'ABV': 6.3,
-                'Description': 'Rich and full bodied with undertones of liquorice and toffee'
+                'Description': 'Rich and full bodied with undertones of liquorice and toffee, brewed with Yorkshire malts and Worcester hops. Maris Otter, crystal wheat and chocolate malts are combined with a double hop to produce a very drinkable malty beer.'
             },
             {
                 'Brewer': 'Chantry',
@@ -366,7 +366,7 @@ angular.module('didsBeerFestV2App')
                 'Name': 'Deer Beer',
                 'Type': 'Amber',
                 'ABV': 4.5,
-                'Description': 'Deer Beer is a clean full bodied'
+                'Description': 'Deer Beer is a clean full bodied, malty English ale, with hints of toffee and a distinct hop finish.'
             },
             {
                 'Brewer': 'Dunham Massey',
@@ -380,14 +380,14 @@ angular.module('didsBeerFestV2App')
                 'Name': 'Chocolate Cherry Mild',
                 'Type': 'Mild',
                 'ABV': 3.8,
-                'Description': 'Chocolate Cherry is a multi-award winning speciality mild. It has all the class of Dunham Dark'
+                'Description': 'Chocolate Cherry is a multi-award winning speciality mild. It has all the class of Dunham Dark, with a dry hint of cherry that cuts through the malt flavours.'
             },
             {
                 'Brewer': 'Dunham Massey',
                 'Name': 'East India Pale Ale',
                 'Type': 'IPA',
                 'ABV': 6,
-                'Description': 'East India Pale Ale is a stronger IPA brewed in the traditional East India style'
+                'Description': 'East India Pale Ale is a stronger IPA brewed in the traditional East India style, but using all English ingredients. Light and hoppy.'
             },
             {
                 'Brewer': 'Donkeystone',
@@ -401,7 +401,7 @@ angular.module('didsBeerFestV2App')
                 'Name': 'Cotton Clouds',
                 'Type': 'Session Pale',
                 'ABV': 4,
-                'Description': 'Dry-hopped with Admiral'
+                'Description': 'Dry-hopped with Admiral, Citra and Cascade, all backed up by a surprisingly large malt bill for the low strength of beer'
             },
             {
                 'Brewer': 'Donkeystone',
@@ -422,14 +422,14 @@ angular.module('didsBeerFestV2App')
                 'Name': 'Jamboree',
                 'Type': 'Golden',
                 'ABV': 4.8,
-                'Description': 'A golden beer using English hops throughout'
+                'Description': 'A golden beer using English hops throughout, in particular Bramling Cross, Jamboree has a blend of lager, pale and wheat malt, giving a smooth but refreshing mouthfeel.'
             },
             {
                 'Brewer': 'ELB',
                 'Name': 'Orchid',
                 'Type': 'Mild',
                 'ABV': 3.6,
-                'Description': 'Dark mild'
+                'Description': 'Dark mild, lightly spiced with vanilla.'
             },
             {
                 'Brewer': 'ELB',
@@ -443,14 +443,14 @@ angular.module('didsBeerFestV2App')
                 'Name': 'PIP',
                 'Type': 'Grapefruit saison',
                 'ABV': 6.3,
-                'Description': 'Classic fruity saison flavours from the yeast'
+                'Description': 'Classic fruity saison flavours from the yeast, hints of banana, oranges and grapefruits. Spicy and herbal notes with peaches and limes from the hops and a blast of grapefruit from the cold pressed grapefruit oil.'
             },
             {
                 'Brewer': 'First Chop',
                 'Name': 'POP',
                 'Type': 'IPA',
                 'ABV': 5.4,
-                'Description': 'A big hoppy US style IPA'
+                'Description': 'A big hoppy US style IPA, pale amber in colour with orange and spicy hop notes, blessed with an extra orange citrus burst from a \'dry hopping\' with orange oils.'
             },
             {
                 'Brewer': 'First Chop',
@@ -464,7 +464,7 @@ angular.module('didsBeerFestV2App')
                 'Name': 'Level',
                 'Type': 'Bitter',
                 'ABV': 4.2,
-                'Description': 'Down-to-earth balanced bitter. Medium roasted notes'
+                'Description': 'Down-to-earth balanced bitter. Medium roasted notes, toffee and caramel, soft fruitiness.'
             },
             {
                 'Brewer': 'Flagship',
@@ -492,14 +492,14 @@ angular.module('didsBeerFestV2App')
                 'Name': 'St Modwen',
                 'Type': 'Golden',
                 'ABV': 4.2,
-                'Description': 'The Heritage Brewing Company'
+                'Description': 'The Heritage Brewing Company, established in the heart of the National Brewery Centre (Museum & Visitor Centre) has a mission to recreate classic beers of the past for a modern audience. A crisp and refreshing blonde beer, not too bitter with a subtle malted wheat biscuit taste.'
             },
             {
                 'Brewer': 'Holden\'s',
                 'Name': 'Golden Glow',
                 'Type': 'Golden',
                 'ABV': 4.4,
-                'Description': 'Brewed using the finest English Maris Otter malts and choicest Fuggles'
+                'Description': 'Brewed using the finest English Maris Otter malts and choicest Fuggles, Golden Glow is a thirst quenchingly refreshing beer.'
             },
             {
                 'Brewer': 'Hop and Stagger',
@@ -513,7 +513,7 @@ angular.module('didsBeerFestV2App')
                 'Name': 'Triple Hop IPA',
                 'Type': 'IPA',
                 'ABV': 5,
-                'Description': 'This is a fine balance of three distinct hop varieties that are brought together to create a veritable symphony of subtle hoppiness. First Gold'
+                'Description': 'This is a fine balance of three distinct hop varieties that are brought together to create a veritable symphony of subtle hoppiness. First Gold, Target & Celeia'
             },
             {
                 'Brewer': 'Hop and Stagger',
@@ -527,70 +527,70 @@ angular.module('didsBeerFestV2App')
                 'Name': 'Great White',
                 'Type': 'Wheat',
                 'ABV': 4.8,
-                'Description': 'A spiced'
+                'Description': 'A spiced, cloudy, wheat beer. Brewed with wheat, Maris Otter barley, coriander seeds, dried Seville Orange peel and Motueka hops from New Zealand, to produce a delicately hopped, crisp, highly refreshing beer.'
             },
             {
                 'Brewer': 'Hawkshead',
                 'Name': 'Red',
                 'Type': 'Red',
                 'ABV': 4.2,
-                'Description': 'A rich'
+                'Description': 'A rich, malt-forward Red Ale brewed with English Maris Otter malted barley and whole cone English hops'
             },
             {
                 'Brewer': 'Hawkshead',
                 'Name': 'Windermere Pale',
                 'Type': 'Pale',
                 'ABV': 3.5,
-                'Description': 'A very pale ale bursting with hop flavour from the signature hop - Citra. Brewed with soft Lakeland water'
+                'Description': 'A very pale ale bursting with hop flavour from the signature hop - Citra. Brewed with soft Lakeland water, Maris Otter malted barley and whole cone hops.'
             },
             {
                 'Brewer': 'Hawkshead',
                 'Name': 'NZPA',
                 'Type': 'IPA',
                 'ABV': 6,
-                'Description': 'A full bodied and aromatic IPA that showcases the unique hops of New Zealand. Created by our Kiwi'
+                'Description': 'A full bodied and aromatic IPA that showcases the unique hops of New Zealand. Created by our Kiwi, Head Brewer Matt Clarke. Passionfruit, mango and apricot aromas and a citrus bitterness are balanced by the sweetness of English Maris Otter barley.'
             },
             {
                 'Brewer': 'Inveralmond',
                 'Name': 'Daracha',
                 'Type': 'Ruby',
                 'ABV': 5.2,
-                'Description': 'DARACHA'
+                'Description': 'DARACHA, pronounced \'Da-Ra-Ca\', is a ruby ale brewed with Amber malts and Roast Barley to give a dry, malty base beer with a lovely ruby red colour. We\'ve then oak matured the beer to impart flavours and aromas of toffee, vanilla and tobacco.\''
             },
             {
                 'Brewer': 'Inveralmond',
                 'Name': 'Ossian',
                 'Type': 'Golden',
                 'ABV': 4.1,
-                'Description': 'Flavour packed'
+                'Description': 'Flavour packed, slow kilned ale malt, caramalt and biscuity malted wheat used to craft a malt backbone which is then beautifully complemented by a heady hop aroma of zesty lemon and orange citrus'
             },
             {
                 'Brewer': 'Inveralmond',
                 'Name': 'Lia Fail',
                 'Type': 'Dark',
                 'ABV': 4.7,
-                'Description': 'Flavour packed dark crystal and chocolate malts. This combination creates a warming malty body bursting with nutty'
+                'Description': 'Flavour packed dark crystal and chocolate malts. This combination creates a warming malty body bursting with nutty, chocolate notes that we have balanced with spicy aromas from Cascade and Fuggles hops. It finishes full, mellow and satisfying.'
             },
             {
                 'Brewer': 'Ilkley',
                 'Name': 'Ultravox',
                 'Type': 'Lager',
                 'ABV': 5.2,
-                'Description': 'Pouring soft with a slight red hue'
+                'Description': 'Pouring soft with a slight red hue, the malt leads, but the expected bitter finish is tempered by gentle fruit. Tangerine and peach aromas.'
             },
             {
                 'Brewer': 'Ilkley',
                 'Name': 'Tribus',
                 'Type': 'Pale',
                 'ABV': 4.4,
-                'Description': 'Showcasing a new-to-market hop'
+                'Description': 'Showcasing a new-to-market hop, in this case Kolibri from Slovenia. In fact, this whole beer is Slovenian in terms of hops, with the wonderfully named Wolf and Fox hops. Kolibri brings a floral nose, Wolf a tropical punch and Fox a sly hint of lemongrass.'
             },
             {
                 'Brewer': 'Ilkley',
                 'Name': 'Blonde',
                 'Type': 'Blonde',
                 'ABV': 3.9,
-                'Description': 'Brewed with new'
+                'Description': 'Brewed with new, fruity European hops, the traditional golden bitter has had a makeover. Hints of citrus compliment the soft biscuit, and there\'s a fruity finish. Offering a different outlook to the very many hoppy punchy pales in our arsenal.'
             },
             {
                 'Brewer': 'Ilkley',
@@ -618,14 +618,14 @@ angular.module('didsBeerFestV2App')
                 'Name': 'Old Man',
                 'Type': 'Dark',
                 'ABV': 4.3,
-                'Description': 'This original dark beer has soft malt notes of coffee and chocolate that combine with a pleasant light hoppiness to create a rich'
+                'Description': 'This original dark beer has soft malt notes of coffee and chocolate that combine with a pleasant light hoppiness to create a rich, full tasting Old Ale of times gone by.'
             },
             {
                 'Brewer': 'Ludlow',
                 'Name': 'Gold',
                 'Type': 'Golden',
                 'ABV': 4.2,
-                'Description': 'This has a golden ale complexion with a papaya'
+                'Description': 'This has a golden ale complexion with a papaya, pineapple and lemon aroma. Gold has a soft, full bodied creamy taste.'
             },
             {
                 'Brewer': 'Millstone',
@@ -639,14 +639,14 @@ angular.module('didsBeerFestV2App')
                 'Name': 'Moho',
                 'Type': 'Pale',
                 'ABV': 4.3,
-                'Description': 'Aromatic Welsh Pale Ale'
+                'Description': 'Aromatic Welsh Pale Ale, hopped with two different American varieties. A light coloured Ale, bursting with flavour'
             },
             {
                 'Brewer': 'Mantle',
                 'Name': 'Rock Steady',
                 'Type': 'Golden',
                 'ABV': 3.8,
-                'Description': 'Very drinkable Golden Session Ale'
+                'Description': 'Very drinkable Golden Session Ale, with a good dose of British hops for a crisp and refreshing finish'
             },
             {
                 'Brewer': 'Milestone',
@@ -681,7 +681,7 @@ angular.module('didsBeerFestV2App')
                 'Name': 'Don\'t Mess With MCR',
                 'Type': 'Pale Ale',
                 'ABV': 4.5,
-                'Description': 'Collaboration with Cloudwater'
+                'Description': 'Collaboration with Cloudwater, Track, Marble, Runaway and Blackjack'
             },
             {
                 'Brewer': 'Neptune',
@@ -709,7 +709,7 @@ angular.module('didsBeerFestV2App')
                 'Name': 'King of the Sea',
                 'Type': 'Bitter',
                 'ABV': 4.4,
-                'Description': 'English bitter with Northern Brewery'
+                'Description': 'English bitter with Northern Brewery, Williamette and Cascade hops'
             },
             {
                 'Brewer': 'Orkney',
@@ -730,35 +730,35 @@ angular.module('didsBeerFestV2App')
                 'Name': 'Dark Island',
                 'Type': 'Dark',
                 'ABV': 4.6,
-                'Description': 'Orkney brewery\'s flagship beer. Flavours of dark chocolate'
+                'Description': 'Orkney brewery\'s flagship beer. Flavours of dark chocolate, dried fruit, figs and nuts from the combination of roasted malts and rich hops'
             },
             {
                 'Brewer': 'Outstanding',
                 'Name': 'Blond',
                 'Type': 'Blond',
                 'ABV': 4.5,
-                'Description': 'Pale'
+                'Description': 'Pale, citrusy, refreshing'
             },
             {
                 'Brewer': 'Outstanding',
                 'Name': 'Stout',
                 'Type': 'Stout',
                 'ABV': 5.5,
-                'Description': 'Jet black'
+                'Description': 'Jet black, thick, roast and liquorice flavours'
             },
             {
                 'Brewer': 'Outstanding',
                 'Name': 'Red',
                 'Type': 'Red',
                 'ABV': 4.4,
-                'Description': 'Copper-coloured'
+                'Description': 'Copper-coloured, mellow, biscuity'
             },
             {
                 'Brewer': 'Outstanding',
                 'Name': 'Imperial IPA',
                 'Type': 'IPA',
                 'ABV': 7.4,
-                'Description': 'Golden'
+                'Description': 'Golden, dry, strong, implausibly-hopped'
             },
             {
                 'Brewer': 'Outstanding',
@@ -772,7 +772,7 @@ angular.module('didsBeerFestV2App')
                 'Name': 'APA',
                 'Type': 'Pale',
                 'ABV': 5.3,
-                'Description': 'Mosaic'
+                'Description': 'Mosaic, Citra and Centennial'
             },
             {
                 'Brewer': 'Pomona Island',
@@ -786,7 +786,7 @@ angular.module('didsBeerFestV2App')
                 'Name': 'Session IPA',
                 'Type': 'Session IPA',
                 'ABV': 4.5,
-                'Description': 'Amarillo'
+                'Description': 'Amarillo, Centennial and Summit'
             },
             {
                 'Brewer': 'Pomona Island',
@@ -835,21 +835,21 @@ angular.module('didsBeerFestV2App')
                 'Name': 'Smokey Maple Stout',
                 'Type': 'Stout',
                 'ABV': 5.2,
-                'Description': 'Brewed with a smorgasbord of nine malts including oats'
+                'Description': 'Brewed with a smorgasbord of nine malts including oats, a little smoked oat, and Canadian maple syrup for a get up and go breakfast'
             },
             {
                 'Brewer': 'Slater\'s',
                 'Name': 'Autumn Red',
                 'Type': 'Red',
                 'ABV': 5,
-                'Description': 'Full-bodied mahogany beer with Fuggles'
+                'Description': 'Full-bodied mahogany beer with Fuggles, Liberty and Mount Hood hops'
             },
             {
                 'Brewer': 'Slater\'s',
                 'Name': 'Premium Best Bitter',
                 'Type': 'Best Bitter',
                 'ABV': 4.4,
-                'Description': 'Rich amber-coloured beer with hints of caramel'
+                'Description': 'Rich amber-coloured beer with hints of caramel, malt and a complex fruity hop aroma'
             },
             {
                 'Brewer': 'Silver Brewhouse',
@@ -863,7 +863,7 @@ angular.module('didsBeerFestV2App')
                 'Name': 'Broken Dream',
                 'Type': 'Stout',
                 'ABV': 6.5,
-                'Description': 'CAMRA Champion Beer of Britain 2018. Breakfast stout with a gentle touch of smoke'
+                'Description': 'CAMRA Champion Beer of Britain 2018. Breakfast stout with a gentle touch of smoke, coffee and chocolate.'
             },
             {
                 'Brewer': 'Siren',
@@ -877,49 +877,49 @@ angular.module('didsBeerFestV2App')
                 'Name': 'Yulu',
                 'Type': 'Pale',
                 'ABV': 3.6,
-                'Description': 'Loose leaf pale ale brewed with Earl Grey Tea and Lemon Zest and hopped with an all-star American hop profile of Chinook'
+                'Description': 'Loose leaf pale ale brewed with Earl Grey Tea and Lemon Zest and hopped with an all-star American hop profile of Chinook, Citra, Amarillo and Simcoe'
             },
             {
                 'Brewer': 'Siren',
                 'Name': 'Suspended in Cereal',
                 'Type': 'Pale',
                 'ABV': 4,
-                'Description': 'Citra'
+                'Description': 'Citra, Simcoe, Amarillo & Mosaic combine with a whole load of flaked barley to accentuate mouthfeel and body, and add just a touch of sweetness. Juicy, hazy and mean.'
             },
             {
                 'Brewer': 'Stubborn Mule',
                 'Name': 'Li\'l Napoleon Pale Ale',
                 'Type': 'Pale',
                 'ABV': 3.9,
-                'Description': 'Prepare for a tropical'
+                'Description': 'Prepare for a tropical, citrus orange finish with a fruity mid-range bitterness, an easy drinkin\' Pale Ale that\'s happy to hog the limelight all day long.'
             },
             {
                 'Brewer': 'Stubborn Mule',
                 'Name': 'Pre-Prohibition Cream Ale',
                 'Type': 'Pale',
                 'ABV': 5.5,
-                'Description': 'Liberty hops add a refreshing essence of citrus'
+                'Description': 'Liberty hops add a refreshing essence of citrus, grapes, peaches and vanilla.\'Crash cooled for a clean finish the perfectly timed drop of honey along with a double dose of hops makes this an interesting yet easy drinker for all.'
             },
             {
                 'Brewer': 'Stubborn Mule',
                 'Name': 'IPA Single Hop',
                 'Type': 'IPA',
                 'ABV': 5.7,
-                'Description': 'Caramel'
+                'Description': 'Caramel, tangerine, orange citrus, tropical fruit and grapefruit \' it\'s got the lot.'
             },
             {
                 'Brewer': 'Seven Bro7hers',
                 'Name': 'EPA',
                 'Type': 'Pale',
                 'ABV': 4.8,
-                'Description': 'A classic English Pale Ale with a toasted malt base � floral and green tea undertones'
+                'Description': 'A classic English Pale Ale with a toasted malt base \' floral and green tea undertones'
             },
             {
                 'Brewer': 'Seven Bro7hers',
                 'Name': 'Session',
                 'Type': 'Pale',
                 'ABV': 3.8,
-                'Description': 'A delicious session ale that delivers massive citrus aromas � tropical flavours'
+                'Description': 'A delicious session ale that delivers massive citrus aromas \' tropical flavours'
             },
             {
                 'Brewer': 'Seven Bro7hers',
@@ -933,7 +933,7 @@ angular.module('didsBeerFestV2App')
                 'Name': 'Ghost Juice',
                 'Type': 'APA',
                 'ABV': 4.6,
-                'Description': 'This golden pale is packed with American hops Citra'
+                'Description': 'This golden pale is packed with American hops Citra, Centennial and Cascade'
             },
             {
                 'Brewer': 'Thirst Class',
@@ -947,7 +947,7 @@ angular.module('didsBeerFestV2App')
                 'Name': 'Hoppy Go Lucky',
                 'Type': 'Session Pale',
                 'ABV': 4.1,
-                'Description': 'Hoppy session Pale Ale brewed with US hops Amarillo'
+                'Description': 'Hoppy session Pale Ale brewed with US hops Amarillo, Citra, Centennial and Cascade. Fruity citrus with a subtle malt backbone'
             },
             {
                 'Brewer': 'Tiny Rebel',
@@ -961,49 +961,49 @@ angular.module('didsBeerFestV2App')
                 'Name': 'Stay Puft',
                 'Type': 'Marshmallow Porter',
                 'ABV': 5.2,
-                'Description': 'This marshmallow porter has the classic roasty qualities of a proper dark ale'
+                'Description': 'This marshmallow porter has the classic roasty qualities of a proper dark ale, whilst the marshmallow gives it a smooth sweetness, both combining for a delightful, S\'mores-like ale. A sweet treat for the cold winter nights.'
             },
             {
                 'Brewer': 'Tiny Rebel',
                 'Name': 'Citra Milkshake',
                 'Type': 'Speciality',
                 'ABV': 4.2,
-                'Description': 'The sweetness of the lactose combines with the citrus flavour of the hop for a smooth'
+                'Description': 'The sweetness of the lactose combines with the citrus flavour of the hop for a smooth, citrus flavour and a perfect balance between bitter and sweet. Creamy, juicy, fruity, delicious beer.\''
             },
             {
                 'Brewer': 'Tiny Rebel',
                 'Name': 'Fugg Life',
                 'Type': 'British Pale',
                 'ABV': 4.2,
-                'Description': 'Wholly hopped using British hops. Rather than the fruity'
+                'Description': 'Wholly hopped using British hops. Rather than the fruity, citrussy flavours imparted by American and Pacific hops, their British cousins give an earthy, woody flavour that makes for perfect bittering.\''
             },
             {
                 'Brewer': 'Tiny Rebel',
                 'Name': 'FUBAR',
                 'Type': 'Pale',
                 'ABV': 4.4,
-                'Description': 'If you�re used to fizzy lagers or boring bitters'
+                'Description': 'If you\'re used to fizzy lagers or boring bitters, challenge your perceptions with this gateway beer, and open your eyes and your tastebuds to a world of quaffable, flavourful session ale with FUBAR'
             },
             {
                 'Brewer': 'Titanic',
                 'Name': 'Plum Porter',
                 'Type': 'Fruit Porter',
                 'ABV': 4.9,
-                'Description': 'Well-rounded�porter�with fruity'
+                'Description': 'Well-rounded\'porter\'with fruity, sweet notes over a backdrop of hoppy flavour'
             },
             {
                 'Brewer': 'Track',
                 'Name': 'Sonoma',
                 'Type': 'Pale',
                 'ABV': 3.8,
-                'Description': 'Juicy'
+                'Description': 'Juicy, bright, dry pale. Hopped extensively with Centennial, Citra and Mosaic hops at flame out & dry hop. Here\'s your chance to see if you prefer keg or cask beer. Exactly the same beer is available in keg form in the keg bar.'
             },
             {
                 'Brewer': 'Thornbridge',
                 'Name': 'Jaipur',
                 'Type': 'IPA',
                 'ABV': 5.9,
-                'Description': 'A citrus dominated India Pale Ale'
+                'Description': 'A citrus dominated India Pale Ale, its immediate impression is soft and smooth yet builds to a crescendo of massive hoppiness accentuated by honey. An enduring, bitter finish.'
             },
             {
                 'Brewer': 'Uprising',
@@ -1017,7 +1017,7 @@ angular.module('didsBeerFestV2App')
                 'Name': 'All Day Pale',
                 'Type': 'Pale',
                 'ABV': 2.7,
-                'Description': 'Where else can you buy a 2.7% beer that has been'
+                'Description': 'Where else can you buy a 2.7% beer that has been, Copper Hopped and Late Hopped, then run through a Hop Back and finally dry hopped \' using the best of the best including Amarillo; Citra; Ella; Galaxy; Mosaic and Simcoe. Light on alcohol; \' BIG on flavour!'
             },
             {
                 'Brewer': 'Windsor & Eton',
@@ -1031,14 +1031,14 @@ angular.module('didsBeerFestV2App')
                 'Name': 'Conqueror',
                 'Type': 'Black IPA',
                 'ABV': 5,
-                'Description': 'Packed with 5 speciality malts for a wonderful combination of roasted flavours and unlike a stout'
+                'Description': 'Packed with 5 speciality malts for a wonderful combination of roasted flavours and unlike a stout, this beer packs a mighty punch of flavour derived from Summit and Cascade hops.'
             },
             {
                 'Brewer': 'Wild Weather',
                 'Name': 'The Tropical',
                 'Type': 'IPA',
                 'ABV': 6,
-                'Description': 'Packed with Mango'
+                'Description': 'Packed with Mango, Orange, Tangerine & Strawberry. The Tropical packs a fruit punch into every sip. With a massive fruit punch nose, making way for a gentle bitter finish.'
             },
             {
                 'Brewer': 'Wild Weather',
@@ -1059,7 +1059,7 @@ angular.module('didsBeerFestV2App')
                 'Name': 'Sir Philip',
                 'Type': 'Best Bitter',
                 'ABV': 4.2,
-                'Description': 'Amber in colour'
+                'Description': 'Amber in colour, this premium bitter has light malty overtone, balanced with the classic pairing of Fuggles and Target hops'
             },
             {
                 'Brewer': 'Wincle',
