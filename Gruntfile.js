@@ -29,6 +29,7 @@ module.exports = function(grunt) {
 
     grunt.loadNpmTasks('grunt-manifest');
     grunt.loadNpmTasks('grunt-contrib-uglify-es');
+    grunt.loadNpmTasks('grunt-angular-templates');
 
     // Define the configuration for all the tasks
     grunt.initConfig({
@@ -40,7 +41,7 @@ module.exports = function(grunt) {
         uglify: {
             generated: {
                 files: {
-                    'dist/scripts/scripts.js': ['app/scripts/*.js', 'app/scripts/**/*.js'] //, '!app/scripts/sw/*.js']
+                    'dist/scripts/scripts.js': ['app/scripts/*.js', 'app/scripts/**/*.js']
                 }
             }
         },
@@ -290,7 +291,7 @@ module.exports = function(grunt) {
                 flow: {
                     html: {
                         steps: {
-                            js: ['concat'],
+                            js: ['concat', 'uglify'],
                             css: ['cssmin']
                         },
                         post: {}
