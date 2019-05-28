@@ -28,12 +28,22 @@ module.exports = function(grunt) {
     var serveStatic = require('serve-static');
 
     grunt.loadNpmTasks('grunt-manifest');
+    grunt.loadNpmTasks('grunt-contrib-uglify-es');
 
     // Define the configuration for all the tasks
     grunt.initConfig({
 
         // Project settings
         yeoman: appConfig,
+
+
+        uglify: {
+            generated: {
+                files: {
+                    'dist/scripts/scripts.js': ['app/scripts/*.js', 'app/scripts/**/*.js'] //, '!app/scripts/sw/*.js']
+                }
+            }
+        },
 
         // Watches files for changes and runs tasks based on the changed files
         watch: {
@@ -280,7 +290,7 @@ module.exports = function(grunt) {
                 flow: {
                     html: {
                         steps: {
-                            js: ['concat', 'uglifyjs'],
+                            js: ['concat'],
                             css: ['cssmin']
                         },
                         post: {}
