@@ -8,7 +8,7 @@
  * Controller of the didsBeerFestV2App
  */
 angular.module('didsBeerFestV2App')
-    .controller('MainCtrl', function() {
+    .controller('MainCtrl', [function() {
         $('#lnkAbout').removeClass('active');
         $('#lnkContact').removeClass('active');
         $('#lnkHome').addClass('active');
@@ -28,4 +28,4 @@ angular.module('didsBeerFestV2App')
             'Karma'
         ];
 
-    });
+    }]);
