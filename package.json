@@ -37,6 +37,7 @@
         "karma-jasmine": "^1.0.2",
         "karma-phantomjs-launcher": "*",
         "serve-static": "^1.11.1",
+        "sw-appcache-behavior": "0.0.18",
         "time-grunt": "^1.0.0"
     },
     "engines": {
