@@ -8,7 +8,7 @@
  * Controller of the didsBeerFestV2App
  */
 angular.module('didsBeerFestV2App')
-    .controller('FindCtrl', ['$scope', '$window', 'uiGmapGoogleMapApifunction', function($scope, $window, uiGmapGoogleMapApi) {
+    .controller('FindCtrl', ['$scope', '$window', 'uiGmapGoogleMapApi', function($scope, $window, uiGmapGoogleMapApi) {
         $('#lnkAbout').removeClass('active');
         $('#lnkContact').removeClass('active');
         $('#lnkHome').removeClass('active');
