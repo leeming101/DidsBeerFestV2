@@ -1,2 +1,4 @@
 app/scripts/jquery.bxSlider.js
 app/scripts/flipclock.min.js
+app/scripts/sw/client-runtime.js
+app/scripts/sw/appcache-behavior-import.js

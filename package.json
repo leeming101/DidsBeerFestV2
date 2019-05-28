@@ -4,7 +4,7 @@
     "devDependencies": {
         "autoprefixer": "^9.1.2",
         "g": "^2.0.1",
-        "grunt": "^1.0.3",
+        "grunt": "^1.0.4",
         "grunt-angular-templates": "^1.0.4",
         "grunt-concurrent": "^2.3.0",
         "grunt-contrib-clean": "^1.0.0",
@@ -16,7 +16,7 @@
         "grunt-contrib-htmlmin": "^2.0.0",
         "grunt-contrib-imagemin": "^2.0.1",
         "grunt-contrib-jshint": "^1.0.0",
-        "grunt-contrib-uglify": "^3.4.0",
+        "grunt-contrib-uglify-es": "^3.3.0",
         "grunt-contrib-watch": "^1.0.0",
         "grunt-filerev": "^2.1.2",
         "grunt-jscs": "^3.0.1",

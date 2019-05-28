@@ -14,7 +14,6 @@
 
         gtag('config', 'UA-35875054-1');
     </script>
-    <script src="../build/client-runtime.js" data-service-worker="service-worker.js"></script>
     <meta charset="utf-8">
     <meta name="theme-color" content="#ffc627">
     <title>The 12th Annual Didsbury Beer Festival</title>
@@ -178,7 +177,17 @@
     <!-- bxSlider Javascript file -->
     <script src="scripts/jquery.bxSlider.js"></script>
     <script src="scripts/custom.js"></script>
+    <script src="scripts/sw/client-runtime.js" data-service-worker="service-worker.js"></script>
     <!-- endbuild -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker
+                .register('/service-worker.js')
+                .then(function() {
+                    console.log("App cache service Worker Registered");
+                });
+        }
+    </script>
 </body>
 
 </html>
