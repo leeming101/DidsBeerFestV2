@@ -7,7 +7,7 @@
  * Controller of the didsBeerFestV2App
  */
 angular.module('didsBeerFestV2App')
-    .controller('CraftCtrl', function($scope) {
+    .controller('CraftCtrl', ['$scope', function($scope) {
         $('#lnkAbout').removeClass('active');
         $('#lnkContact').removeClass('active');
         $('#lnkHome').removeClass('active');
@@ -256,4 +256,4 @@ angular.module('didsBeerFestV2App')
                 'Description': 'Pale ale hopped with Centennial, Citra and Mosaic hops that give a juicy, bright pale ale'
             }
         ];
-    });
+    }]);

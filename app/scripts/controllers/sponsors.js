@@ -8,7 +8,7 @@
  * Controller of the didsBeerFestV2App
  */
 angular.module('didsBeerFestV2App')
-    .controller('SponsorsCtrl', function($scope) {
+    .controller('SponsorsCtrl', ['$scope', function($scope) {
 
         $scope.sponsorList = [
             { link: 'http://www.bottonline.co.uk/', img: 'images/sponsors/2.png', rank: 0.5 - Math.random() },
@@ -61,4 +61,4 @@ angular.module('didsBeerFestV2App')
             'AngularJS',
             'Karma'
         ];
-    });
+    }]);
