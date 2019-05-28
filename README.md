@@ -20,6 +20,7 @@ Running `grunt serve` (from a terminal or command window) within the repository 
 ## Building
 
 https://travis-ci.org/leeming101/DidsBeerFestV2
+[![Build Status](https://travis-ci.org/leeming101/DidsBeerFestV2.svg?branch=master)](https://travis-ci.org/leeming101/DidsBeerFestV2)
 
 ## Deployment
 
