@@ -8,7 +8,7 @@
  * Controller of the didsBeerFestV2App
  */
 angular.module('didsBeerFestV2App')
-    .controller('BeerCtrl', function($scope) {
+    .controller('BeerCtrl', ['$scope', function($scope) {
         $('#lnkAbout').removeClass('active');
         $('#lnkContact').removeClass('active');
         $('#lnkHome').removeClass('active');
@@ -1076,4 +1076,4 @@ angular.module('didsBeerFestV2App')
                 'Description': 'A big hit of chocolate with hints of treacle & liquorice in its flavour.'
             }
         ];
-    });
+    }]);

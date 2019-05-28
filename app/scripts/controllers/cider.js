@@ -7,7 +7,7 @@
  * Controller of the didsBeerFestV2App
  */
 angular.module('didsBeerFestV2App')
-    .controller('CiderCtrl', function($scope) {
+    .controller('CiderCtrl', ['$scope', function($scope) {
         $('#lnkAbout').removeClass('active');
         $('#lnkContact').removeClass('active');
         $('#lnkHome').removeClass('active');
@@ -389,4 +389,4 @@ angular.module('didsBeerFestV2App')
                 'Description': ''
             }
         ];
-    });
+    }]);
