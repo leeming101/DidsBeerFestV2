@@ -1,5 +1,5 @@
 <!doctype html>
-<html manifest="manifest.appcache">
+<html>
 
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -177,8 +177,9 @@
     <!-- bxSlider Javascript file -->
     <script src="scripts/jquery.bxSlider.js"></script>
     <script src="scripts/custom.js"></script>
-    <script src="scripts/sw/client-runtime.js" data-service-worker="service-worker.js"></script>
     <!-- endbuild -->
+
+    <script src="scripts/sw/client-runtime.js" data-service-worker="service-worker.js"></script>
     <script>
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker
