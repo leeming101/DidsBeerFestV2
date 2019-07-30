@@ -23,7 +23,7 @@ angular.module('didsBeerFestV2App')
             // { link: 'https://elmhousetreeservices.co.uk/', img: 'images/sponsors/36.png', rank: 0.5 - Math.random() },
             // { link: 'https://southmanchesternews.co.uk/', img: 'images/sponsors/35.png', rank: 0.5 - Math.random() },
             // { link: 'http://www.eclectichotels.co.uk/didsbury-house/', img: 'images/sponsors/14.png', rank: 0.5 - Math.random() },
-            // { link: 'https://www.yell.com/biz/burns-partnership-llp-manchester-1120012/', img: 'images/sponsors/37.svg', rank: 0.5 - Math.random() },
+            { link: 'https://www.yell.com/biz/burns-partnership-llp-manchester-1120012/', img: 'images/sponsors/37.svg', rank: 0.5 - Math.random() },
             { link: 'http://www.geipel.co.uk/', img: 'images/sponsors/13.png', rank: 0.5 - Math.random() },
             { link: 'http://www.bollingtonbrewing.co.uk/', img: 'images/sponsors/19.png', rank: 0.5 - Math.random() },
             { link: 'http://www.chantrybrewery.co.uk/', img: 'images/sponsors/20.png', rank: 0.5 - Math.random() },
