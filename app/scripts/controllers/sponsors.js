@@ -19,10 +19,11 @@ angular.module('didsBeerFestV2App')
             // { link: 'https://twitter.com/TheFletcherMoss', img: 'images/sponsors/17.png', rank: 0.5 - Math.random() },
             { link: 'https://en-gb.facebook.com/M-J-Leeming-Opticians-158925407454109/', img: 'images/sponsors/6.png', rank: 0.5 - Math.random() },
             { link: 'http://www.barneswalker.co.uk', img: 'images/sponsors/7.png', rank: 0.5 - Math.random() },
+            { link: 'http://www.hine.co.uk', img: 'images/sponsors/41.png', rank: 0.5 - Math.random() },
             // { link: 'http://www.thebarbershopdidsbury.co.uk/', img: 'images/sponsors/10.png', rank: 0.5 - Math.random() },
             // { link: 'https://elmhousetreeservices.co.uk/', img: 'images/sponsors/36.png', rank: 0.5 - Math.random() },
             // { link: 'https://southmanchesternews.co.uk/', img: 'images/sponsors/35.png', rank: 0.5 - Math.random() },
-            // { link: 'http://www.eclectichotels.co.uk/didsbury-house/', img: 'images/sponsors/14.png', rank: 0.5 - Math.random() },
+            { link: 'http://www.eclectichotels.co.uk/didsbury-house/', img: 'images/sponsors/40.jpg', rank: 0.5 - Math.random() },
             { link: 'https://www.yell.com/biz/burns-partnership-llp-manchester-1120012/', img: 'images/sponsors/37.svg', rank: 0.5 - Math.random() },
             { link: 'http://www.geipel.co.uk/', img: 'images/sponsors/13.png', rank: 0.5 - Math.random() },
             { link: 'http://www.bollingtonbrewing.co.uk/', img: 'images/sponsors/19.png', rank: 0.5 - Math.random() },
@@ -32,12 +33,13 @@ angular.module('didsBeerFestV2App')
             { link: 'http://www.didsburytraders.co.uk/', img: 'images/sponsors/39.png', rank: 0.5 - Math.random() },
             // { link: 'http://wdc-creative.com/', img: 'images/sponsors/24.png', rank: 0.5 - Math.random() }
 
-            /*
-            {link:'http://www.aqua-check.co.uk/', img:'images/sponsors/8.jpg', rank: 0.5 - Math.random()},
-            {link:'http://www.manchestereveningnews.co.uk/', img:'images/sponsors/9.png', rank: 0.5 - Math.random()},
-            {link:'http://www.thebarbershopdidsbury.co.uk/', img:'images/sponsors/10.png', rank: 0.5 - Math.random()},
-            {link:'http://www.markbratttravel.com/', img:'images/sponsors/11.png', rank: 0.5 - Math.random()},
+            
+            //{link:'http://www.aqua-check.co.uk/', img:'images/sponsors/8.jpg', rank: 0.5 - Math.random()},
+            //{link:'http://www.manchestereveningnews.co.uk/', img:'images/sponsors/9.png', rank: 0.5 - Math.random()},
+            //{link:'http://www.thebarbershopdidsbury.co.uk/', img:'images/sponsors/10.png', rank: 0.5 - Math.random()},
+            //{link:'http://www.markbratttravel.com/', img:'images/sponsors/11.png', rank: 0.5 - Math.random()},
             {link:'http://www.avaloncaredentalpractice.co.uk/', img:'images/sponsors/12.png', rank: 0.5 - Math.random()},
+            /*
             {link:'http://www.lewisphipps.co.uk/', img:'images/sponsors/15.png', rank: 0.5 - Math.random()},
             {link:'http://www.ghd.com/united-kingdom/', img:'images/sponsors/16.png', rank: 0.5 - Math.random()},
             {link:'http://www.theparrswoodhotel.co.uk/', img:'images/sponsors/18.png', rank: 0.5 - Math.random()},
