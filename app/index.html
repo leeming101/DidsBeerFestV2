@@ -81,15 +81,7 @@
                     -->
                         <li id="lnkGoodCauses"><a ng-href="#!/goodcauses">Good Causes</a></li>
                         <li id="lnkVolunteer"><a ng-href="#!/volunteer">Volunteer</a></li>
-                        <!-- <li id="lnkMusic"><a ng-href="#!/music">Music</a></li> -->
-                        <!-- <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Previous Years <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li id="lnkLastYear"><a ng-href="/lastyear">2016</a></li>
-                                <li id="lnk2015"><a ng-href="/2015">2015</a></li>
-                                <li id="lnk2014"><a ng-href="/2014">2014</a></li>
-                            </ul>
-                        </li> -->
+                        <li id="lnkMusic"><a ng-href="#!/music">Music</a></li>
                         <li>
                             <a href="https://www.youtube.com/watch?v=BdoGr0ocBT4" class="youtubePopup">
                                 Video
@@ -178,17 +170,6 @@
     <script src="scripts/jquery.bxSlider.js"></script>
     <script src="scripts/custom.js"></script>
     <!-- endbuild -->
-
-    <script src="scripts/sw/client-runtime.js" data-service-worker="service-worker.js"></script>
-    <script>
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker
-                .register('/service-worker.js')
-                .then(function() {
-                    console.log("App cache service Worker Registered");
-                });
-        }
-    </script>
 </body>
 
 </html>
