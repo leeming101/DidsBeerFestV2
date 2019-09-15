@@ -26,8 +26,6 @@ module.exports = function(grunt) {
     };
 
     var serveStatic = require('serve-static');
-
-    grunt.loadNpmTasks('grunt-manifest');
     grunt.loadNpmTasks('grunt-contrib-uglify-es');
     grunt.loadNpmTasks('grunt-angular-templates');
 
