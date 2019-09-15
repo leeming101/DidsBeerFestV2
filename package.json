@@ -21,7 +21,6 @@
         "grunt-filerev": "^2.1.2",
         "grunt-jscs": "^3.0.1",
         "grunt-karma": "*",
-        "grunt-manifest": "^0.4.4",
         "grunt-mocha": "^1.2.0",
         "grunt-newer": "^1.1.0",
         "grunt-ng-annotate": "^3.0.0",
