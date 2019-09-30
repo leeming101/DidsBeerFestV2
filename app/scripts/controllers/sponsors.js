@@ -31,6 +31,7 @@ angular.module('didsBeerFestV2App')
             { link: 'http://www.hireequip.co.uk/', img: 'images/sponsors/21.jpg', rank: 0.5 - Math.random() },
             { link: 'https://twitter.com/DidsburyGinFest', img: 'images/sponsors/38.png', rank: 0.5 - Math.random() },
             { link: 'http://www.didsburytraders.co.uk/', img: 'images/sponsors/39.png', rank: 0.5 - Math.random() },
+            { link: 'https://www.beer52.com/', img: 'images/sponsors/42.png', rank: 0.5 - Math.random() },
             // { link: 'http://wdc-creative.com/', img: 'images/sponsors/24.png', rank: 0.5 - Math.random() }
 
             
