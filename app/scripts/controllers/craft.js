@@ -31,229 +31,195 @@ angular.module('didsBeerFestV2App')
             return element.name.match(/^Ma/) ? true : false;
         };
 
-        $scope.craftList = [{
-                'Brewer': 'Hawkshead',
-                'Name': 'Lakeland',
-                'Type': 'Lager',
-                'ABV': 5,
-                'Description': 'Crisp pilsner-style lager with a clean, refreshing flavour from Lakeland water'
+        $scope.craftList = [
+            {
+              'Brewery': 'Geipel',
+              'Name': 'Geipel Pilsner',
+              'ABV': '4.6%',
+              'Notes': '',
+              'Website': 'https://www.geipel.co.uk/beers'
             },
             {
-                'Brewer': 'Geipel',
-                'Name': 'Pilsner',
-                'Type': 'Pilsner',
-                'ABV': 4.6,
-                'Description': 'German-style unfiltered pilsner using top quality German malt and De Perle hops'
+              'Brewery': 'Geipel',
+              'Name': 'Aloha from Bala',
+              'ABV': '4.4%',
+              'Notes': '',
+              'Website': 'https://www.geipel.co.uk/beers'
             },
             {
-                'Brewer': 'Geipel',
-                'Name': 'Dunkelweisse',
-                'Type': 'Wheat',
-                'ABV': 5.4,
-                'Description': 'Smoked malt adds richness to this low-hopped dark wheat beer'
+              'Brewery': 'Geipel',
+              'Name': 'Hefeweizen',
+              'ABV': '5.2%',
+              'Notes': '',
+              'Website': 'https://www.geipel.co.uk/beers'
             },
             {
-                'Brewer': 'Geipel',
-                'Name': 'Golden Gate',
-                'Type': 'Amber',
-                'ABV': 5,
-                'Description': 'San Francisco-style \'Steam-beer\' amber lager. Full-bodied malt balanced with American hops'
+              'Brewery': 'Geipel',
+              'Name': 'Zoigl',
+              'ABV': '5.4%',
+              'Notes': '',
+              'Website': 'https://www.geipel.co.uk/beers'
             },
             {
-                'Brewer': 'Geipel',
-                'Name': 'Chaolsch',
-                'Type': 'Kolsch',
-                'ABV': 6.9,
-                'Description': 'A strong, modern Kolsch-style beer brewed in collaboration with Heavy Industry and Wild Horse breweries'
+              'Brewery': 'Geipel',
+              'Name': 'Bock',
+              'ABV': '6.5%',
+              'Notes': '',
+              'Website': 'https://www.geipel.co.uk/beers'
             },
             {
-                'Brewer': 'Geipel',
-                'Name': 'Aloha',
-                'Type': 'Pilsner',
-                'ABV': 4.4,
-                'Description': 'Collaboration with Heavy Industry brewery. Hazy golden pilsner dry-hopped for an exotic aroma'
+              'Brewery': 'Geipel',
+              'Name': 'Golden Gate',
+              'ABV': '5.0%',
+              'Notes': '',
+              'Website': 'https://www.geipel.co.uk/beers'
             },
             {
-                'Brewer': 'Geipel',
-                'Name': 'Bock',
-                'Type': 'Lager',
-                'ABV': 6.5,
-                'Description': 'Traditional Munich strong beer, full of rich and complex flavours'
+              'Brewery': 'Hawkshead',
+              'Name': 'Lakeland Pilsner',
+              'ABV': '5.0%',
+              'Notes': '',
+              'Website': 'http://www.hawksheadbrewery.co.uk/beers/151/hawkshead-lager--.aspx'
             },
             {
-                'Brewer': 'Geipel',
-                'Name': 'Hefeweizen',
-                'Type': 'Wheat',
-                'ABV': 5.6,
-                'Description': 'Traditional cloudy wheat beer of Bavaria. Flavours of banana, clove and coriander'
+              'Brewery': 'Squawk',
+              'Name': 'Brood',
+              'ABV': '8.3%',
+              'Notes': 'A huge juicy DIPA with Citra, Mosaic and Simcoe hops.',
+              'Website': ''
             },
             {
-                'Brewer': 'Geipel',
-                'Name': 'Zolgl',
-                'Type': 'Amber',
-                'ABV': 5.4,
-                'Description': 'A malty amber lager inspired by the traditional brews of North-Eastern Bavaria'
+              'Brewery': 'Squawk',
+              'Name': 'Passer IPA',
+              'ABV': '6.1%',
+              'Notes': 'Dense haze and full-on crushed pineapple and grapefruit.',
+              'Website': ''
             },
             {
-                'Brewer': 'Alphabet',
-                'Name': 'A to the K',
-                'Type': 'Pale',
-                'ABV': 5.6,
-                'Description': 'Oatmeal pale ale full of fresh hop bitterness and tempered with tropical fruit flavours. Very drinkable.'
+              'Brewery': 'Squawk',
+              'Name': 'Kori',
+              'ABV': '9.0%',
+              'Notes': 'Imperial Stout with sour cherries, cacao and vanilla.',
+              'Website': ''
             },
             {
-                'Brewer': 'Alphabet',
-                'Name': 'Charlie Don\'t Surf ',
-                'Type': 'IPA',
-                'ABV': 4,
-                'Description': 'Session IPA packed full of Antipodean hops with a nice bitter finish.'
+              'Brewery': 'Vocation',
+              'Name': 'Life and Death',
+              'ABV': '6.5%',
+              'Notes': '',
+              'Website': 'https://www.vocationbrewery.com'
             },
             {
-                'Brewer': 'Beatnikz Rep.',
-                'Name': 'Kentucky Riot',
-                'Type': 'Stout',
-                'ABV': 5,
-                'Description': 'Full flavoured stout that uses bourbon oak and muscovado sugar'
+              'Brewery': 'Fierce',
+              'Name': 'Blackcurrant Tart',
+              'ABV': '4.5%',
+              'Notes': '',
+              'Website': 'https://www.fiercebeer.com'
             },
             {
-                'Brewer': 'Beatnikz Rep.',
-                'Name': 'New England IPA',
-                'Type': 'IPA',
-                'ABV': '',
-                'Description': 'Hazy and juicy IPA thats been aggresively hopped for a fruity/floral taste'
+              'Brewery': 'Wild Beer Co',
+              'Name': 'Bibble',
+              'ABV': '4.2%',
+              'Notes': '',
+              'Website': 'https://www.wildbeerco.com/drinks/beers'
             },
             {
-                'Brewer': 'Beatnikz Rep.',
-                'Name': 'Tropical Fiesta',
-                'Type': 'Session IPA',
-                'ABV': 4,
-                'Description': 'Tropical new world hops combined with lower ABV for keeping the party going'
+              'Brewery': 'Wild Beer Co',
+              'Name': 'Fresh',
+              'ABV': '5.5%',
+              'Notes': '',
+              'Website': 'https://www.wildbeerco.com/drinks/beers'
             },
             {
-                'Brewer': 'Burton Road',
-                'Name': 'IPA',
-                'Type': 'IPA',
-                'ABV': 5.6,
-                'Description': 'Dry and refreshing with fruit, citrus and pine flavours'
+              'Brewery': 'Wild Beer Co',
+              'Name': 'Millionaire',
+              'ABV': '4.7%',
+              'Notes': '',
+              'Website': 'https://www.wildbeerco.com/drinks/beers'
             },
             {
-                'Brewer': 'Burton Road',
-                'Name': 'Session IPA',
-                'Type': 'Session IPA',
-                'ABV': 4,
-                'Description': 'Light citrus and floral backed by a crisp finish'
+              'Brewery': 'Wild Weather Ales',
+              'Name': 'Weather Curse of Threepwood',
+              'ABV': '5.0%',
+              'Notes': '',
+              'Website': 'https://wildweatherales.com/beer/full-of-beans/'
             },
             {
-                'Brewer': 'Burton Road',
-                'Name': 'Pale Ale',
-                'Type': 'Pale',
-                'ABV': 4.8,
-                'Description': 'An easy drinking and smooth pale ale'
+              'Brewery': 'Verdant Forest',
+              'Name': 'Citra',
+              'ABV': '5.0%',
+              'Notes': 'Single Hop Pale Ale; the perfect balance between bitter citrus and tropical fruit.',
+              'Website': ''
             },
             {
-                'Brewer': 'Cloudwater',
-                'Name': 'Amber',
-                'Type': 'Amber',
-                'ABV': 5.1,
-                'Description': 'Citrus aroma, marmalade flavour and deep toffee colour. Limited edition'
+              'Brewery': 'Track',
+              'Name': 'Sonoma',
+              'ABV': '3.8%',
+              'Notes': 'A juicy,  bright,  dry pale hopped extensively with Centennial, Citra and Mosaic. A taste of sunshine.',
+              'Website': ''
             },
             {
-                'Brewer': 'Cloudwater',
-                'Name': 'Autumn Pale',
-                'Type': 'IPA',
-                'ABV': 4,
-                'Description': 'Cloudwater continue their traditional seasonal journey with this special Autumn IPA'
+              'Brewery': 'Burton Road',
+              'Name': 'Pale Ale',
+              'ABV': '4.8%',
+              'Notes': '',
+              'Website': 'https://www.burtonroadbrewing.co.uk'
             },
             {
-                'Brewer': 'Cloudwater',
-                'Name': 'Hoppy Porter',
-                'Type': 'Porter',
-                'ABV': 5.5,
-                'Description': 'Hoppy enough that it\'s like a black IPA in disguise as a porter '
+              'Brewery': 'Burton Road',
+              'Name': 'IPA',
+              'ABV': '5.6%',
+              'Notes': '',
+              'Website': 'https://www.burtonroadbrewing.co.uk'
             },
             {
-                'Brewer': 'Marble',
-                'Name': 'Lagonda',
-                'Type': 'IPA',
-                'ABV': 5,
-                'Description': 'Classic IPA with citrus and floral hop notes and a dry, bitter finish'
+              'Brewery': 'Brotherhood Brewery',
+              'Name': 'Back in the Day',
+              'ABV': '6.2%',
+              'Notes': '',
+              'Website': 'https://www.brotherhood.co.uk'
             },
             {
-                'Brewer': 'Pomona',
-                'Name': 'APA',
-                'Type': 'Pale Ale',
-                'ABV': 5.3,
-                'Description': 'Clean and golden, with peachy, earthy hop flavours (Simcoe, Chinook, Mosaic)'
+              'Brewery': 'Brotherhood Brewery',
+              'Name': 'Devil\'s Piano',
+              'ABV': '6.6%',
+              'Notes': '',
+              'Website': 'https://www.brotherhood.co.uk'
             },
             {
-                'Brewer': 'Pomona',
-                'Name': 'Victoria\'s Secret ',
-                'Type': 'IPA',
-                'ABV': 5.6,
-                'Description': 'Brand new! Hints of blackcurrant and tropical stone fruit flavours are expected when finished brewing in their magicians workshop by Media City'
+              'Brewery': 'To The Moon',
+              'Name': 'Apollo v3',
+              'ABV': '5.8%',
+              'Notes': 'New England-style IPA with Simcoe and Enigma hops.',
+              'Website': ''
             },
             {
-                'Brewer': 'Runaway',
-                'Name': 'American Brown',
-                'Type': 'Brown Ale',
-                'ABV': 5.7,
-                'Description': 'Moreish brown ale with caramel sweetness balanced by big flavour US hops'
+              'Brewery': 'Marble',
+              'Name': 'Lagonda',
+              'ABV': '5.0%',
+              'Notes': '',
+              'Website': 'https://www.marblebeers.com/our-beers/lagonda-ipa/'
             },
             {
-                'Brewer': 'Runaway',
-                'Name': 'Gingerbread Stout',
-                'Type': 'Stout',
-                'ABV': 7.2,
-                'Description': 'Brewed with parkin flavours and ginger and aged in bourbon barrels'
+              'Brewery': 'Northern Monk',
+              'Name': 'New World IPA',
+              'ABV': '6.2%',
+              'Notes': '',
+              'Website': 'https://northernmonk.com/product/new-world/'
             },
             {
-                'Brewer': 'Runaway',
-                'Name': 'Smoked Red',
-                'Type': 'Red Ale',
-                'ABV': 6.3,
-                'Description': 'Full bodied dark red ale with rum barrel smoked malts'
+              'Brewery': 'Siren',
+              'Name': 'Soundwave',
+              'ABV': '5.6%',
+              'Notes': 'Unfiltered IPA. Three malts and four American hops deliver fruit notes and subtle bitterness.',
+              'Website': ''
             },
             {
-                'Brewer': 'Seven Bro7hers',
-                'Name': 'Red',
-                'Type': 'IPA',
-                'ABV': 6,
-                'Description': 'A refreshing amber ale with a crisp, malty body with blueberry spice. There really are 7 brothers brewing! And they have 4 sisters who are making gin too!'
-            },
-            {
-                'Brewer': 'Seven Bro7hers',
-                'Name': 'Watermelon',
-                'Type': 'Wheat',
-                'ABV': 4.5,
-                'Description': 'A celebration of summer flavours, a wheat beer with an infusion of fresh watermelon.'
-            },
-            {
-                'Brewer': 'Squawk',
-                'Name': 'Cali DIPA',
-                'Type': 'IPA',
-                'ABV': 8,
-                'Description': 'Double IPA with fresh tropical flavourings'
-            },
-            {
-                'Brewer': 'Squawk',
-                'Name': 'New England IPA',
-                'Type': 'IPA',
-                'ABV': 5.6,
-                'Description': 'Hazy straw coloured IPA with grapefruit and tangerine flavours'
-            },
-            {
-                'Brewer': 'Squawk',
-                'Name': 'Morus Gose',
-                'Type': 'Saison',
-                'ABV': 3.9,
-                'Description': 'Clear and golden with light passion fruit, lemon and sea salt'
-            },
-            {
-                'Brewer': 'Track',
-                'Name': 'Sonoma',
-                'Type': 'Pale',
-                'ABV': 3.8,
-                'Description': 'Pale ale hopped with Centennial, Citra and Mosaic hops that give a juicy, bright pale ale'
+              'Brewery': 'Pompelmocello',
+              'Name': 'IPA',
+              'ABV': '6.0%',
+              'Notes': 'Grapefruity IPA. Sour, but with lactose for a smooth and sweet touch.',
+              'Website': ''
             }
-        ];
+          ];
     }]);
