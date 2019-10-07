@@ -28,7 +28,7 @@
             <span class="listAbv">
 				<span ng-if="craft.ABV != 0">{{craft.ABV}}</span>
             </span>
-            <br><a class="listSite" ng-href="craft.Website" ng-if="!craft.Notes">{{craft.Website}}</a>
+            <br><a class="listSite" href="{{craft.Website}}" ng-if="!craft.Notes">{{craft.Website}}</a>
             <span ng-if="!craft.Website">{{craft.Notes}}</span>
         </p>
         <br>
