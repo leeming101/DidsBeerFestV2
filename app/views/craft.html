@@ -5,13 +5,12 @@
             <span>Sort By:</span>
             <br>
             <select ng-init="sortBy = 'Brewer'" ng-model="sortBy">
-                <option value="Brewer">Brewer (A to Z)</option>
-                <option value="-Brewer">Brewer (Z to A)</option>
+                <option value="Brewery">Brewer (A to Z)</option>
+                <option value="-Brewery">Brewer (Z to A)</option>
                 <option value="Name">Name (A to Z)</option>
                 <option value="-Name">Name (Z to A)</option>
                 <option value="ABV">ABV (Lowest First)</option>
                 <option value="-ABV">ABV (Highest First)</option>
-                <option value="Type">Type</option>
             </select>
         </div>
         <div class="col-md-6 clearPadding">
@@ -23,14 +22,17 @@
     <br>
     <div ng-repeat="craft in craftList | filter:query | orderBy: sortBy ">
         <p>
-            <span class="listBrewer">{{craft.Brewer}}</span>
+            <span class="listBrewer">{{craft.Brewery}}</span>
             <br>
             <span class="listName">{{craft.Name}}</span>
             <span class="listAbv">
-				<span ng-if="craft.ABV != 0">{{craft.ABV}}%</span> {{craft.Type}}
+				<span ng-if="craft.ABV != 0">{{craft.ABV}}</span>
             </span>
-            <br>{{craft.Description}}
+            <br><a class="listSite" ng-href="craft.Website" ng-if="!craft.Notes">{{craft.Website}}</a>
+            <span ng-if="!craft.Website">{{craft.Notes}}</span>
         </p>
         <br>
     </div>
+    <br><br>
+    <span>We plan to serve all of these beers/ciders/perries at the festival at some point. Some beers will run out quicker than others. Sometimes our suppliers provide alternatives to the beers we asked for. <br>We apologise in advance if we don’t have a specific beer, cider or perry you want on the day(s) that you attend.</span>
 </div>
