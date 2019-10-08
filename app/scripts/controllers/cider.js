@@ -31,362 +31,261 @@ angular.module('didsBeerFestV2App')
             return element.name.match(/^Ma/) ? true : false;
         };
 
-        $scope.ciderList = [{
-                'Brewer': 'Broadoak',
-                'Name': 'Mango Cider',
-                'Type': 'Fruity Cider',
-                'ABV': 4,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Broadoak',
-                'Name': 'Pheasant Plucker',
-                'Type': 'Fruity Cider',
-                'ABV': 4.5,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Broadoak',
-                'Name': 'Strawberry',
-                'Type': 'Fruity Cider',
-                'ABV': 4,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Celtic Marches',
-                'Name': 'Lily The Pink',
-                'Type': 'Fruity Cider',
-                'ABV': 4.5,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Celtic Marches',
-                'Name': 'Nell Gwynne',
-                'Type': 'Fruity Cider',
-                'ABV': 4,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Celtic Marches',
-                'Name': 'Ruby Tuesday',
-                'Type': 'Fruity Cider',
-                'ABV': 4,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Celtic Marches',
-                'Name': 'Slighty Foxed',
-                'Type': 'Fruity Cider',
-                'ABV': 4,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Gwatkins',
-                'Name': 'Red Diesel',
-                'Type': 'Fruity Cider',
-                'ABV': 4,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Gwynt y Ddraig',
-                'Name': 'Autumn Magic',
-                'Type': 'Fruity Cider',
-                'ABV': 4,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Sheppys',
-                'Name': 'Blackberry/Elderflower',
-                'Type': 'Fruity Cider',
-                'ABV': 4,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Sheppys',
-                'Name': 'Raspberry',
-                'Type': 'Fruity Cider',
-                'ABV': 4,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Snailsbank',
-                'Name': 'Pink Grapefruit',
-                'Type': 'Fruity Cider',
-                'ABV': 4,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Snailsbank',
-                'Name': 'Strawberry/Lime',
-                'Type': 'Fruity Cider',
-                'ABV': 4,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Snailsbank',
-                'Name': 'Elderflower Gin/Tonic',
-                'Type': 'Fruity Cider',
-                'ABV': 4,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Snailsbank',
-                'Name': 'Fruit Bat Blackcurrant',
-                'Type': 'Fruity Cider',
-                'ABV': 4,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Snailsbank',
-                'Name': 'Tumbledown Fruit Bat',
-                'Type': 'Fruity Cider',
-                'ABV': 4,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Snailsbank',
-                'Name': 'Ginger',
-                'Type': 'Fruity Cider',
-                'ABV': 4,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Snailsbank',
-                'Name': 'Rhubarb',
-                'Type': 'Fruity Cider',
-                'ABV': 4,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Westons',
-                'Name': 'Handbrake Damson',
-                'Type': 'Fruity Cider',
-                'ABV': 4,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Westons',
-                'Name': 'Flat Tyre',
-                'Type': 'Fruity Cider',
-                'ABV': 4,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Winkleigh',
-                'Name': 'Sams Blackcurrant',
-                'Type': 'Fruity Cider',
-                'ABV': 4,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Broadoak',
-                'Name': 'Perry',
-                'Type': 'Perry',
-                'ABV': 7.5,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Gwynt y Ddraig',
-                'Name': '2 Trees',
-                'Type': 'Perry',
-                'ABV': 4.5,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Ross on Wye',
-                'Name': 'Perry',
-                'Type': 'Perry',
-                'ABV': 6.5,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Westons',
-                'Name': 'Perry',
-                'Type': 'Perry',
-                'ABV': 7.4,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Cleeve Orchard',
-                'Name': 'Perry',
-                'Type': 'Perry',
-                'ABV': 6.5,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Biddenden',
-                'Name': 'Perry',
-                'Type': 'Cider',
-                'ABV': 8,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Broadoak',
-                'Name': 'Moonshine',
-                'Type': 'Cider',
-                'ABV': 7.5,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Celtic Marches',
-                'Name': 'Thundering Molly',
-                'Type': 'Cider',
-                'ABV': 5.2,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Countryman',
-                'Name': 'Dry',
-                'Type': 'Cider',
-                'ABV': 6.5,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Crossmans',
-                'Name': 'Dry',
-                'Type': 'Cider',
-                'ABV': 6,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Double Vision',
-                'Name': 'Cider',
-                'Type': 'Cider',
-                'ABV': 7.4,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Double Vision',
-                'Name': 'Impeared',
-                'Type': 'Cider',
-                'ABV': 7.4,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Double Vision',
-                'Name': 'Strawberry',
-                'Type': 'Cider',
-                'ABV': 5.3,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Green Valley',
-                'Name': 'Sweet',
-                'Type': 'Cider',
-                'ABV': 5.5,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Green Valley',
-                'Name': 'Vintage',
-                'Type': 'Cider',
-                'ABV': 8.3,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Gwatkins',
-                'Name': 'Yarlington Mill',
-                'Type': 'Cider',
-                'ABV': 7.5,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Gwynt y Ddraig',
-                'Name': 'Black Dragon',
-                'Type': 'Cider',
-                'ABV': 7.2,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Hecks',
-                'Name': 'Port Wine',
-                'Type': 'Cider',
-                'ABV': 5,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Mad Hatters',
-                'Name': 'Farting Dog',
-                'Type': 'Cider',
-                'ABV': 6.5,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Rich\'s ',
-                'Name': 'Farmhouse',
-                'Type': 'Cider',
-                'ABV': 6,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Rich\'s ',
-                'Name': 'Legbender',
-                'Type': 'Cider',
-                'ABV': 6,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Ross on Wye',
-                'Name': 'Cider',
-                'Type': 'Cider',
-                'ABV': 5.5,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Sheppys',
-                'Name': 'Sweet',
-                'Type': 'Cider',
-                'ABV': 5,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Thatchers',
-                'Name': 'Traditional',
-                'Type': 'Cider',
-                'ABV': 6,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Thatchers',
-                'Name': 'Chedder Valley',
-                'Type': 'Cider',
-                'ABV': 6,
-                'Description': ''
-            },
-            {
-                'Brewer': 'W.C.',
-                'Name': 'Janets Jungle Juice',
-                'Type': 'Cider',
-                'ABV': 6.5,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Westons',
-                'Name': 'Family Reserve',
-                'Type': 'Cider',
-                'ABV': 5,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Westons',
-                'Name': 'Old Rosie',
-                'Type': 'Cider',
-                'ABV': 7.3,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Westons',
-                'Name': 'Rosies Pig',
-                'Type': 'Cider',
-                'ABV': 4.8,
-                'Description': ''
-            },
-            {
-                'Brewer': 'Winkleigh',
-                'Name': 'Autumn Scrumpy',
-                'Type': 'Cider',
-                'ABV': 7.4,
-                'Description': ''
-            }
-        ];
+        $scope.ciderList = [
+  {
+    'Brewery': 'Mad Hatters',
+    'Name': 'Farting Dog',
+    'ABV': '6.5%'
+  },
+  {
+    'Brewery': 'Hunts',
+    'Name': 'Barn Screacher',
+    'ABV': '6.0%'
+  },
+  {
+    'Brewery': 'Hunts',
+    'Name': 'Bull Walloper',
+    'ABV': '7.2%'
+  },
+  {
+    'Brewery': 'Sams',
+    'Name': 'Medium',
+    'ABV': '6.0%'
+  },
+  {
+    'Brewery': 'Sams',
+    'Name': 'Autumn Scrumpy',
+    'ABV': '7.5%'
+  },
+  {
+    'Brewery': 'Double Vision',
+    'Name': 'Cider',
+    'ABV': '7.4%'
+  },
+  {
+    'Brewery': 'Double Vision',
+    'Name': 'Impeared Vision Perry',
+    'ABV': '7.4%'
+  },
+  {
+    'Brewery': 'Celtic Marches',
+    'Name': 'Thundering Molly',
+    'ABV': '5.2%'
+  },
+  {
+    'Brewery': 'Cleeve',
+    'Name': 'Orchard Perry',
+    'ABV': '6.0%'
+  },
+  {
+    'Brewery': 'Gwatkins',
+    'Name': 'Farmhouse Perry',
+    'ABV': '7.0%'
+  },
+  {
+    'Brewery': 'Newtons',
+    'Name': 'Gasping Goose Cider',
+    'ABV': '5.8%'
+  },
+  {
+    'Brewery': 'Ross on Wye',
+    'Name': 'Perry',
+    'ABV': '6.0%'
+  },
+  {
+    'Brewery': 'Westons',
+    'Name': 'Old Rosie',
+    'ABV': '7.3%'
+  },
+  {
+    'Brewery': 'Westons',
+    'Name': 'Rosies Pig',
+    'ABV': '4.8%'
+  },
+  {
+    'Brewery': 'Broadoak',
+    'Name': 'Moonshine',
+    'ABV': '7.5%'
+  },
+  {
+    'Brewery': 'Broadoak',
+    'Name': 'Perry',
+    'ABV': '7.5%'
+  },
+  {
+    'Brewery': 'Crossmans',
+    'Name': 'Dry',
+    'ABV': '6.0%'
+  },
+  {
+    'Brewery': 'Harry\'s',
+    'Name': 'Scrummage',
+    'ABV': '6.2%'
+  },
+  {
+    'Brewery': 'Hecks',
+    'Name': 'Glastonbury Gold',
+    'ABV': '6.5%'
+  },
+  {
+    'Brewery': 'Mad Apple',
+    'Name': 'Enok's Old Faithful',
+    'ABV': '6.0%'
+  },
+  {
+    'Brewery': 'Rich\'s',
+    'Name': 'Legbender',
+    'ABV': '6.0%'
+  },
+  {
+    'Brewery': 'Sheppys',
+    'Name': 'Sweet',
+    'ABV': '6.0%'
+  },
+  {
+    'Brewery': 'West Croft',
+    'Name': 'Janets Jungle Juice',
+    'ABV': '6.0%'
+  },
+  {
+    'Brewery': 'Wilkins',
+    'Name': 'Cider Dry',
+    'ABV': '6.0%'
+  },
+  {
+    'Brewery': 'Hurst View',
+    'Name': 'Jibber Jabber',
+    'ABV': '7.2%'
+  },
+  {
+    'Brewery': 'Gwynt y Ddraig',
+    'Name': 'Black Dragon',
+    'ABV': '7.3%'
+  },
+  {
+    'Brewery': 'Gwynt y Ddraig',
+    'Name': '2 Trees perry',
+    'ABV': '4.5%'
+  },
+  {
+    'Brewery': 'Ralph\'s',
+    'Name': 'Perry',
+    'ABV': '6.0%'
+  },
+  {
+    'Brewery': 'Barkers',
+    'Name': 'Perry',
+    'ABV': '6.0%'
+  },
+  {
+    'Brewery': 'Broadoak',
+    'Name': 'Mango Cider',
+    'ABV': '4.0%'
+  },
+  {
+    'Brewery': 'Broadoak',
+    'Name': 'Rhubarb',
+    'ABV': '4.0%'
+  },
+  {
+    'Brewery': 'Broadoak',
+    'Name': 'Strawberry Cider',
+    'ABV': '4.0%'
+  },
+  {
+    'Brewery': 'Celtic Marches',
+    'Name': 'Lily the Pink',
+    'ABV': '4.6%'
+  },
+  {
+    'Brewery': 'Celtic Marches',
+    'Name': 'Nell Gwyne (orange and cinnamon)',
+    'ABV': '4.0%'
+  },
+  {
+    'Brewery': 'Celtic Marches',
+    'Name': 'Ruby Tuesday (Raspberry)',
+    'ABV': '4.0%'
+  },
+  {
+    'Brewery': 'Celtic Marches',
+    'Name': 'Loubi Lou (cherry and pineapple)',
+    'ABV': '4.0%'
+  },
+  {
+    'Brewery': 'Celtic Marches',
+    'Name': 'Tutti Frutti (pomegranate and rose)',
+    'ABV': '4.0%'
+  },
+  {
+    'Brewery': 'Celtic',
+    'Name': 'Tiger (orange and pineapple)',
+    'ABV': '4.0%'
+  },
+  {
+    'Brewery': 'Slightly Foxed',
+    'Name': 'Mango',
+    'ABV': '4.0%'
+  },
+  {
+    'Brewery': 'English Fruit Cider',
+    'Name': 'Rapple (raspberry)',
+    'ABV': '4.0%'
+  },
+  {
+    'Brewery': 'English Fruit Cider',
+    'Name': 'Briar Patch Blackberry',
+    'ABV': ''
+  },
+  {
+    'Brewery': 'Gwatkins',
+    'Name': 'Red Diesel strawberry cider',
+    'ABV': '4.0%'
+  },
+  {
+    'Brewery': 'Gwatkins',
+    'Name': 'Barb Wire rhubarb cider',
+    'ABV': '4.0%'
+  },
+  {
+    'Brewery': 'Gwynt y Ddraig',
+    'Name': 'Autumn Magic (blackberry)',
+    'ABV': '4.0%'
+  },
+  {
+    'Brewery': 'Hurst View',
+    'Name': 'Penkside Passion',
+    'ABV': '4.0%'
+  },
+  {
+    'Brewery': 'Sheppys',
+    'Name': 'Cider with Blackberry & Elderflower',
+    'ABV': '4.0%'
+  },
+  {
+    'Brewery': 'Sheppys',
+    'Name': 'Cider with Raspberry 4.0%',
+    'ABV': ''
+  },
+  {
+    'Brewery': 'Westons',
+    'Name': 'Rosies Pig Strawberry with Elderflower',
+    'ABV': '4.0%'
+  },
+  {
+    'Brewery': 'Westons',
+    'Name': 'Rosies Pig Raspberry with Cucumber',
+    'ABV': '4.0%'
+  },
+  {
+    'Brewery': 'Westons',
+    'Name': 'Rosies Pig Rhubarb',
+    'ABV': '4.0%'
+  },
+  {
+    'Brewery': 'Winkleigh Sams',
+    'Name': 'Blackcurrant',
+    'ABV': '4.0%'
+  }
+];
     }]);

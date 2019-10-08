@@ -4,9 +4,9 @@
         <div class="col-md-6 clearPadding bottomPaddingSm">
             <span>Sort By:</span>
             <br>
-            <select ng-init="sortBy = 'Brewer'" ng-model="sortBy">
-        <option value="Brewer">Brewer (A to Z)</option>
-        <option value="-Brewer">Brewer (Z to A)</option>
+            <select ng-init="sortBy = 'Brewery'" ng-model="sortBy">
+        <option value="Brewery">Brewer (A to Z)</option>
+        <option value="-Brewery">Brewer (Z to A)</option>
         <option value="Name">Name (A to Z)</option>
         <option value="-Name">Name (Z to A)</option>
         <option value="ABV">ABV (Lowest First)</option>
@@ -23,13 +23,13 @@
     <br>
     <div ng-repeat="cider in ciderList | filter:query | orderBy: sortBy ">
         <p>
-            <span class="listBrewer">{{cider.Brewer}}</span>
+            <span class="listBrewer">{{cider.Brewery}}</span>
             <br>
             <span class="listName">{{cider.Name}}</span>
             <span class="listAbv">
-                <span ng-if="cider.ABV != 0">{{cider.ABV}}%</span> {{cider.Type}}
+                <span ng-if="cider.ABV != 0">{{cider.ABV}}</span> 
             </span>
-            <br> {{cider.Description}}
+            <br> 
         </p>
         <br>
     </div>
