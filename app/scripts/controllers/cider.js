@@ -129,7 +129,7 @@ angular.module('didsBeerFestV2App')
   },
   {
     'Brewery': 'Mad Apple',
-    'Name': 'Enok's Old Faithful',
+    'Name': 'Enok\'s Old Faithful',
     'ABV': '6.0%'
   },
   {
