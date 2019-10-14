@@ -103,6 +103,13 @@ angular.module('didsBeerFestV2App')
               'Website': ''
             },
             {
+              'Brewery': 'Squawk',
+              'Name': 'Cali DIPA',
+              'ABV': '8.0%',
+              'Notes': 'An intense tropical fruit hit.',
+              'Website': ''
+            },
+            {
               'Brewery': 'Vocation',
               'Name': 'Life and Death',
               'ABV': '6.5%',
@@ -139,16 +146,23 @@ angular.module('didsBeerFestV2App')
             },
             {
               'Brewery': 'Wild Weather Ales',
-              'Name': 'Weather Curse of Threepwood',
+              'Name': 'Curse of Threepwood',
               'ABV': '5.0%',
               'Notes': '',
               'Website': 'https://wildweatherales.com/beer/full-of-beans/'
             },
             {
-              'Brewery': 'Verdant Forest',
+              'Brewery': 'Vibrant Forest',
               'Name': 'Citra',
               'ABV': '5.0%',
               'Notes': 'Single Hop Pale Ale; the perfect balance between bitter citrus and tropical fruit.',
+              'Website': ''
+            },
+            {
+              'Brewery': 'Vibrant Forest',
+              'Name': 'Black Forest Porter',
+              'ABV': '4.9%',
+              'Notes': 'Rich bittersweet porter with coffee, chocolate and oak.',
               'Website': ''
             },
             {
@@ -194,11 +208,25 @@ angular.module('didsBeerFestV2App')
               'Website': ''
             },
             {
+              'Brewery': 'Moor',
+              'Name': 'Nor\'Hop Ultra Pale',
+              'ABV': '4.1%',
+              'Notes': 'British floor malt with northern Hemisphere hops.',
+              'Website': ''
+            },
+            {
               'Brewery': 'Marble',
               'Name': 'Lagonda',
               'ABV': '5.0%',
               'Notes': '',
               'Website': 'https://www.marblebeers.com/our-beers/lagonda-ipa/'
+            },
+            {
+              'Brewery': 'Marble',
+              'Name': 'Pint',
+              'ABV': '3.9%',
+              'Notes': '',
+              'Website': 'https://www.marblebeers.com/our-beers/pint/'
             },
             {
               'Brewery': 'Northern Monk',
@@ -208,6 +236,34 @@ angular.module('didsBeerFestV2App')
               'Website': 'https://northernmonk.com/product/new-world/'
             },
             {
+              'Brewery': 'Neptune',
+              'Name': 'Abyss Stout',
+              'ABV': '5.0%',
+              'Notes': '',
+              'Website': 'https://www.neptunebrewery.com/keg'
+            },
+            {
+              'Brewery': 'Tiny Rebel',
+              'Name': 'Clwb Tropicana',
+              'ABV': '5.5%',
+              'Notes': '',
+              'Website': 'https://www.tinyrebel.co.uk/beers/clwb-tropicana/'
+            },
+            {
+              'Brewery': 'First Chop',
+              'Name': 'Pop Citrus IPA',
+              'ABV': '5.4%',
+              'Notes': '',
+              'Website': ' http://www.firstchop.co.uk/'
+            },
+            {
+              'Brewery': 'First Chop',
+              'Name': 'Jam Mango Pale',
+              'ABV': '4.0%',
+              'Notes': '',
+              'Website': ' http://www.firstchop.co.uk/'
+            },
+            {
               'Brewery': 'Siren',
               'Name': 'Soundwave',
               'ABV': '5.6%',
@@ -215,8 +271,8 @@ angular.module('didsBeerFestV2App')
               'Website': ''
             },
             {
-              'Brewery': 'Pompelmocello',
-              'Name': 'IPA',
+              'Brewery': 'Siren',
+              'Name': 'Pompelmocello',
               'ABV': '6.0%',
               'Notes': 'Grapefruity IPA. Sour, but with lactose for a smooth and sweet touch.',
               'Website': ''
