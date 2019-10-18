@@ -29,7 +29,8 @@ angular.module('didsBeerFestV2App')
             { link: 'http://www.didsburytraders.co.uk/', img: 'images/sponsors/39.png', rank: 0.5 - Math.random() },
             { link: 'https://www.facebook.com/thechippyonburtonroad/', img: 'images/sponsors/43.png', rank: 0.5 - Math.random() },
             { link: 'http://www.brianpope.com/', img: 'images/sponsors/47.png', rank: 0.5 - Math.random() },
-            { link: 'http://www.avaloncaredentalpractice.co.uk/', img:'images/sponsors/12.png', rank: 0.5 - Math.random()}
+            { link: 'http://www.avaloncaredentalpractice.co.uk/', img:'images/sponsors/12.png', rank: 0.5 - Math.random()},
+            { link: 'http://dropcity.co.uk/', img:'images/sponsors/44.png', rank: 0.5 - Math.random()}
         ];
 
         //example for js unit tests:
