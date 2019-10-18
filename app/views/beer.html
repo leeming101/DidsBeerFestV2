@@ -4,9 +4,9 @@
         <div class="col-md-6 clearPadding bottomPaddingSm">
             <span>Sort By:</span>
             <br>
-            <select ng-init="sortBy = 'Brewer'" ng-model="sortBy">
-				<option value="Brewer">Brewer (A to Z)</option>
-				<option value="-Brewer">Brewer (Z to A)</option>
+            <select ng-init="sortBy = 'Brewery'" ng-model="sortBy">
+				<option value="Brewery">Brewery (A to Z)</option>
+				<option value="-Brewery">Brewery (Z to A)</option>
 				<option value="Name">Name (A to Z)</option>
 				<option value="-Name">Name (Z to A)</option>
 				<option value="ABV">ABV (Lowest First)</option>
@@ -23,9 +23,16 @@
     <br>
     <div ng-repeat="beer in beerList | filter:query | orderBy: sortBy ">
         <p>
-            <span class="listBrewer">{{beer.Brewer}}</span><br><span class="listName">{{beer.Name}}</span><span class="listAbv"><span ng-if="beer.ABV != 0">{{beer.ABV}}%</span> {{beer.Type}}</span>
-            <br>{{beer.Description}}
+            <span class="listBrewer">{{beer.Brewery}}</span><br><span class="listName">{{beer.Name}}</span><span class="listAbv"><span ng-if="beer.ABV != 0">{{beer.ABV}}%</span> {{beer.Type}}</span>
         </p>
         <br>
     </div>
+    <br><br>
+    <span>
+            Many of the beers and lagers we are selling naturally contain gluten, but some are gluten-free (gf). Some beers contain other allergens too. Equally, many beers and lagers are not vegetarian (v) or vegan (ve). Whilst we have tried to establish the provenance of the lager and beer we are selling, you must not rely on our labelling of drinks or any advice from volunteers but contact the brewer directly to confirm whether your preferred beer or lager is indeed gluten-free, vegetarian, vegan and/ or contains other allergens.
+    </span>
+    <br><br>
+    <span>
+        We plan to serve all of these beers/ciders/perries at the festival at some point. Some beers will run out quicker than others. Sometimes our suppliers provide alternatives to the beers we asked for. <br>We apologise in advance if we don’t have a specific beer, cider or perry you want on the day(s) that you attend.
+    </span>
 </div>
