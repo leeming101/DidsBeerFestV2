@@ -32,7 +32,14 @@ angular.module('didsBeerFestV2App')
         };
 
         $scope.craftList = [
-            {
+          {
+            'Brewery': 'Beatnikz Republic',
+            'Name': 'Boardwalk (gf)',
+            'ABV': '4.0%',
+            'Notes': 'Full-bodied citrus pale with US hops.',
+            'Website': ''
+          },  
+          {
               'Brewery': 'Geipel',
               'Name': 'Geipel Pilsner',
               'ABV': '4.6%',
@@ -202,7 +209,7 @@ angular.module('didsBeerFestV2App')
             },
             {
               'Brewery': 'To The Moon',
-              'Name': 'Apollo v3',
+              'Name': 'Apollo v3 (ve)',
               'ABV': '5.8%',
               'Notes': 'New England-style IPA with Simcoe and Enigma hops.',
               'Website': ''
@@ -251,14 +258,14 @@ angular.module('didsBeerFestV2App')
             },
             {
               'Brewery': 'First Chop',
-              'Name': 'Pop Citrus IPA',
+              'Name': 'Pop Citrus IPA (gf)',
               'ABV': '5.4%',
               'Notes': '',
               'Website': ' http://www.firstchop.co.uk/'
             },
             {
               'Brewery': 'First Chop',
-              'Name': 'Jam Mango Pale',
+              'Name': 'Jam Mango Pale (gf)',
               'ABV': '4.0%',
               'Notes': '',
               'Website': ' http://www.firstchop.co.uk/'
