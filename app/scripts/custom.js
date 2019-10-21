@@ -3,7 +3,7 @@
 $(document).ready(function () {
     $('#slider').bxSlider({
         ticker: true,
-        tickerSpeed: 8000,
+        tickerSpeed: 6000,
         tickerHover: true
     });
 
