@@ -11,7 +11,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 }
 
 i{
-    color:#131f6b!important;
+    color:#0f206c!important;
 }
 
 .browsehappy {
@@ -29,12 +29,12 @@ body {
 }
 
 a {
-    color: #ffc627;
+    color: #099a67;
 }
 
 a:hover,
 a:focus {
-    color: #fcb813;
+    color: #0f206c;
     text-decoration: underline;
 }
 
@@ -60,7 +60,7 @@ a:focus {
 .dropdown-menu>.active>a,
 .dropdown-menu>.active>a:focus,
 .dropdown-menu>.active>a:hover {
-    background-color: #ffc627;
+    background-color: #099a67;
 }
 
 
@@ -90,7 +90,7 @@ a:focus {
 
 .header {
     border-bottom: 1px solid #e5e5e5;
-    background-color: #ffc627;
+    background-color: #099a67;
     /* Make the masthead heading the same height as the navigation */
     h3 {
         margin-top: 0;
@@ -105,7 +105,7 @@ a:focus {
     width: 100%;
     top: 0;
     left: 0;
-    background-color: #ffc627;
+    background-color: #099a67;
     z-index: 10000;
     transition: all 0.3s ease-in-out;
 }
@@ -139,12 +139,12 @@ a:focus {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #131f6b;
+    background-color: #0f206c;
 }
 
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus {
-    color: #131f6b;
+    color: #0f206c;
 }
 
 .container>.navbar-header {
@@ -327,7 +327,7 @@ p {
 }
 
 .listBrewer {
-    color: #131f6b;
+    color: #0f206c;
     font-weight: bold;
     font-size: 14px;
 }
@@ -406,7 +406,7 @@ p {
 }
 
 .navSocial>p>a {
-    color: #131f6b !important;
+    color: #0f206c !important;
     font-size: 26px;
 }
 
@@ -443,7 +443,7 @@ p {
     .navbar-default .navbar-nav .open .dropdown-menu>.active>a,
     .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover,
     .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus {
-        color: #131f6b;
+        color: #0f206c;
         ;
     }
 }
