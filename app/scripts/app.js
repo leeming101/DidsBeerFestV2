@@ -87,13 +87,6 @@ angular
             .otherwise({
                 redirectTo: '/'
             });
-    })
-    .config(function(uiGmapGoogleMapApiProvider) {
-        uiGmapGoogleMapApiProvider.configure({
-            key: 'AIzaSyDUIkZxzGxRGNEgCWdjOylusJhFetr6qv4',
-            v: '3.23', //defaults to latest 3.X anyhow
-            libraries: 'weather,geometry,visualization'
-        });
     });
 
 window.addEventListener('load', function(e) {

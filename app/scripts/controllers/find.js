@@ -30,30 +30,5 @@ angular.module('didsBeerFestV2App')
 
 
 
-        $scope.map = { center: { latitude: 53.416528, longitude: -2.222119 }, zoom: 16 };
-
-        $scope.marker = {
-            id: 0,
-            coords: {
-                latitude: 53.416528,
-                longitude: -2.222119
-            },
-            options: {
-                draggable: false,
-                clickable: true,
-                icon: 'images/mapmarker.png'
-            }
-        };
-
-        // uiGmapGoogleMapApi is a promise.
-        // The "then" callback function provides the google.maps object.
-        uiGmapGoogleMapApi.then(function(maps) {
-
-        });
-
-        $scope.openMap = function() {
-            if ($window.confirm('Open in Google Maps?')) {
-                $window.location.href = 'http://maps.google.com/maps?z=15&q=53.416528,-2.222119';
-            }
-        };
+        
     }]);
