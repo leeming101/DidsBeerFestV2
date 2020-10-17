@@ -165,6 +165,32 @@ a:focus {
     margin: auto;
 }
 
+.optionImage {
+    height: auto;
+    max-height: 160px;
+    margin: auto;
+    display: block;
+}
+
+.optionText {
+    font-size: 18px;
+}
+
+.centered{
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.indent {
+    padding-left: 2%;
+    /* Needs prefixing */
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+}
+
 .footerimage {
     width: auto;
     margin: auto;
