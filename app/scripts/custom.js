@@ -51,6 +51,7 @@ $(document).on("click", ".navbar-collapse.in", function (e) {
   }
 });
 
+/* jshint ignore:start */
 /*<![CDATA[*/
     (function () {
         var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
@@ -233,3 +234,4 @@ $(document).on("click", ".navbar-collapse.in", function (e) {
         }
       })();
       /*]]>*/
+      /* jshint ignore:end */
